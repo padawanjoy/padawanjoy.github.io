@@ -2,7 +2,7 @@
 layout: post
 title: "Generating a GitHub Personal Access Token: A Quick Guide"
 color: "#67ac0d"
-tags: [Github, Token, PersonalAccessToken]
+tags: [Github, Token, Personal Access Token]
 ---
 
 A GitHub Personal Access Token is a valuable tool for accessing the GitHub API, providing versatility across various projects and services. Below are simple steps to generate your token. However, please be aware that these steps might vary slightly due to updates or changes on the GitHub page.
