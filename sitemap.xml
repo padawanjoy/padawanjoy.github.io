@@ -1,23 +1,59 @@
+---
+layout: null
+---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://padawanjoy.com/2024/01/08/Dazzling-Debut-of-ChatGPT.html</loc>
-    <lastmod>2024-01-08</lastmod>
-  </url>
-  <url>
-    <loc>https://padawanjoy.com/2024/01/09/Apple-Vision-Pro-Innovation-and-Anticipation-in-a-New-Realm.html</loc>
-    <lastmod>2024-01-09</lastmod>
-  </url>
-  <url>
-    <loc>https://padawanjoy.com/2024/01/09/Comparison-of-Global-Blogging-Services.html</loc>
-    <lastmod>2024-01-09</lastmod>
-  </url>
-  <url>
-    <loc>https://padawanjoy.com/2024/01/10/Generating-a-GitHub-Personal-Access-Token.html</loc>
-    <lastmod>2024-01-10</lastmod>
-  </url>
-  <url>
-    <loc>https://padawanjoy.com/gallery/</loc>
-    <lastmod>2024-01-09</lastmod>
-  </url>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+    {% for post in site.posts %}
+        {% if forloop.first %}
+            <url>
+                <loc>https://padawanjoy.com/</loc>
+                {% if post.lastmod == null %}
+                    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+                {% else %}
+                    <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
+                {% endif %}
+                <priority>1.00</priority>
+            </url>
+            <url>
+                <loc>https://padawanjoy.com/gallery/</loc>
+                {% if post.lastmod == null %}
+                    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+                {% else %}
+                    <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
+                {% endif %}
+                <priority>0.80</priority>
+            </url>
+            <url>
+                <loc>https://padawanjoy.com/tags/</loc>
+                {% if post.lastmod == null %}
+                    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+                {% else %}
+                    <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
+                {% endif %}
+                <priority>0.80</priority>
+            </url>
+        {% endif %}
+        <url>
+            <loc>{{ site.url }}{{ post.url }}</loc>
+            {% if post.lastmod == null %}
+                <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+            {% else %}
+                <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
+            {% endif %}
+
+            {% if post.sitemap.changefreq == null %}
+                <changefreq>weekly</changefreq>
+            {% else %}
+                <changefreq>{{ post.sitemap.changefreq }}</changefreq>
+            {% endif %}
+
+            {% if post.sitemap.priority == null %}
+                <priority>0.80</priority>
+            {% else %}
+                <priority>{{ post.sitemap.priority }}</priority>
+            {% endif %}
+        </url>
+    {% endfor %}
+
 </urlset>
