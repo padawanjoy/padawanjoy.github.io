@@ -9,6 +9,7 @@ Hello, everyone! Today, I'm excited to share with you a fun and easy way to crea
 
 Written in January 2024 on a Mac OS, remember that the steps may vary slightly depending on updates to [github.com](http://github.com/) or the tools involved.
 
+<br>
 ## **Before We Start**
 
 1. First, go to [github.com](http://github.com/) and log in. If you haven’t registered yet, complete the registration process.
@@ -16,6 +17,7 @@ Written in January 2024 on a Mac OS, remember that the steps may vary slightly d
 
 ![Click the “Create repository” button]({{ "/assets/img/posts/2024-01-11-Part1-Building-Your-First-GitHub-Pages-Blog/01.png"}})
 
+<br>
 ## **Creating Your Repository**
 
 1. Time to enter your Repository name. Make sure to use the format **`yourusername.github.io`**. This is essential for your GitHub blog to work correctly.
@@ -24,7 +26,7 @@ Written in January 2024 on a Mac OS, remember that the steps may vary slightly d
 
 ![Creating Repository]({{ "/assets/img/posts/2024-01-11-Part1-Building-Your-First-GitHub-Pages-Blog/02.png"}})
 
-
+<br>
 ## **Downloading Your Blog Source Files**
 
 1. Next, click the "Code" button and copy the Clone address that appears.
@@ -45,7 +47,7 @@ If you want to clone to the folder path **`/Users/padawanjoy/Documents/Blog`**, 
 padawanjoy@MacStudio / % cd /Users/padawanjoy/Documents/Blog
 padawanjoy@MacStudio / % git clone https://github.com/padawanjoy/padawanjoy.github.io.git
 ```
-
+<br>
 ## **Creating Your Blog**
 
 1. You should now have a **`yourusername.github.io`** folder. Go to this folder.
@@ -60,7 +62,7 @@ padawanjoy@MacStudio padawanjoy.github.io % git add *
 padawanjoy@MacStudio padawanjoy.github.io % git commit -m "Initial commit"
 padawanjoy@MacStudio padawanjoy.github.io % git push -u origin main
 ```
-
+<br>
 ## **Checking Your Blog**
 
 1. Visit **`https://github.com/yourusername/yourusername.github.io`** to ensure everything has been pushed correctly.
@@ -69,6 +71,7 @@ padawanjoy@MacStudio padawanjoy.github.io % git push -u origin main
     ![git push is complete]({{ "/assets/img/posts/2024-01-11-Part1-Building-Your-First-GitHub-Pages-Blog/04.png"}})
 1. Now, access **`https://yourusername.github.io`** in your browser. You should see the message "Welcome to my new GitHub Blog!"
 
+<br>
 ## **Wrapping Up**
 
 That’s the entire process of creating a GitHub blog. Not too difficult, right? Now, you can have your own space on the internet. However, it's not quite looking like a blog yet. It's now time to start decorating your blog. Stay tuned for the next post, where we’ll explore how to beautify your newly created blog. Stay excited! 🌟
