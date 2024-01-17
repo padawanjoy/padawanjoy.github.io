@@ -74,4 +74,4 @@ padawanjoy@MacStudio padawanjoy.github.io % git push -u origin main
 <br>
 ## **Wrapping Up**
 
-That’s the entire process of creating a GitHub blog. Not too difficult, right? Now, you can have your own space on the internet. However, it's not quite looking like a blog yet. It's now time to start decorating your blog. Stay tuned for the next post, where we’ll explore how to beautify your newly created blog. Stay excited! 🌟
+That’s the entire process of creating a GitHub blog. Not too difficult, right? Now, you can have your own space on the internet. However, it's not quite looking like a blog yet. It's now time to start decorating your blog. [Stay tuned for the next post, where we’ll explore how to beautify your newly created blog](https://padawanjoy.com/2024/01/17/Part2-Applying-a-Jekyll-Theme.html). Stay excited! 🌟
