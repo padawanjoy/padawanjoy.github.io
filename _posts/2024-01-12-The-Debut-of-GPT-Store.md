@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "The Debut of GPT Store: Opening a New Chapter in AI Chatbots!"
-color: "#67bd60"
-thumbnail: "assets/img/posts/2024-01-12-The-Debut-of-GPT-Store/01.png"
-tags: [GPT, ChatGPT, OpenAI, GPTs, GPT Store]
+date:   2024-01-12 10:37:00 +0900
+author: padawanjoy
+image:  '/images/posts/2024-01-12-The-Debut-of-GPT-Store/01.png'
+tags: [gpt, chatgpt, openai, gpts, gpt-store]
 ---
 
 Hello everyone! I have some exciting news from the world of AI to share. OpenAI has launched the '[GPT Store](https://openai.com/blog/introducing-the-gpt-store)', a platform where you can buy and sell chatbots. Let's dive into the details!
@@ -14,7 +15,7 @@ Hello everyone! I have some exciting news from the world of AI to share. OpenAI 
 
 OpenAI has unveiled a new platform called 'GPT Store.' Here, you get the opportunity to create and purchase AI chatbots. The specifics regarding the revenue sharing between developers and the platform will be disclosed in March.
 
-![GPT Store]({{ "/assets/img/posts/2024-01-12-The-Debut-of-GPT-Store/01.png"}})
+![GPT Store]({{ "/images/posts/2024-01-12-The-Debut-of-GPT-Store/01.png"}})
 
 <br>
 ## **ChatGPT Team Plan: Customized Service for Corporate Clients**

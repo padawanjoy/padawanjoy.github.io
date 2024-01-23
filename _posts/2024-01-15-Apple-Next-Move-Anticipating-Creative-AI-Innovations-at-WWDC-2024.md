@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Apple's Next Move: Anticipating Creative AI Innovations at WWDC 2024"
-color: "#659ec2"
-tags: [AppleWWDC2024, AppleAI, CreativeAI, TechInnovation, SiriUpdate, AIinTech, SmartTech, AppleKeynote, AIFuture, TechNews]
+date:   2024-01-15 19:03:00 +0900
+author: padawanjoy
+tags: [apple, wwdc-2024, wwdc, ai, apple-ai]
 ---
 
 Excitement is building around the creative AI technology that Apple is set to unveil at WWDC 2024 this June. This announcement is expected to be a significant indicator of Apple's positioning in the AI technology race.

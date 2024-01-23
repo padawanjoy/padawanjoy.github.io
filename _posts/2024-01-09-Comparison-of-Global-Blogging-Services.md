@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Comparison of Global Blogging Services
-color: "#be9666"
-feature-img: "assets/img/posts/2024-01-09-Comparison-of-Global-Blogging-Services/00.jpg"
-thumbnail: "assets/img/posts/2024-01-09-Comparison-of-Global-Blogging-Services/00.jpg"
-tags: [Github Page, Github Blog, WordPress, Medium, Blogger, Wix, Blog]
+title: "Comparison of Global Blogging Services"
+date:   2024-01-09 20:05:00 +0900
+author: padawanjoy
+image:  '/images/posts/2024-01-09-Comparison-of-Global-Blogging-Services/00.jpg'
+tags: [github-page, github-blog, github, wordpress, medium, blogger, wix, blog]
 ---
 
 One of the biggest dilemmas when starting a blog is choosing the right blogging platform. Blogging services each have unique features and pros and cons, requiring users to carefully compare them to find a service that suits their purpose and preferences. Let's delve into a detailed comparison of globally renowned blogging services, including their features, advantages, disadvantages, recommended user base, and release dates.
@@ -12,7 +12,7 @@ One of the biggest dilemmas when starting a blog is choosing the right blogging 
 <br>
 ### **1. Github Page (Github Blog)**
 
-![Github Page (Github Blog)]({{ "/assets/img/posts/2024-01-09-Comparison-of-Global-Blogging-Services/01.png"}})
+![Github Page (Github Blog)]({{ "/images/posts/2024-01-09-Comparison-of-Global-Blogging-Services/01.png"}})
 
 #### **Features:**
 
@@ -39,7 +39,7 @@ One of the biggest dilemmas when starting a blog is choosing the right blogging 
 <br>
 ### **2. WordPress**
 
-![WordPress]({{ "/assets/img/posts/2024-01-09-Comparison-of-Global-Blogging-Services/02.png"}})
+![WordPress]({{ "/images/posts/2024-01-09-Comparison-of-Global-Blogging-Services/02.png"}})
 
 #### **Features:**
 
@@ -66,7 +66,7 @@ One of the biggest dilemmas when starting a blog is choosing the right blogging 
 <br>
 ### **3. Medium**
 
-![Medium]({{ "/assets/img/posts/2024-01-09-Comparison-of-Global-Blogging-Services/03.png"}})
+![Medium]({{ "/images/posts/2024-01-09-Comparison-of-Global-Blogging-Services/03.png"}})
 
 #### **Features:**
 
@@ -92,7 +92,7 @@ One of the biggest dilemmas when starting a blog is choosing the right blogging 
 <br>
 ### **4. Blogger**
 
-![Blogger]({{ "/assets/img/posts/2024-01-09-Comparison-of-Global-Blogging-Services/04.png"}})
+![Blogger]({{ "/images/posts/2024-01-09-Comparison-of-Global-Blogging-Services/04.png"}})
 
 #### **Features:**
 
@@ -118,7 +118,7 @@ One of the biggest dilemmas when starting a blog is choosing the right blogging 
 <br>
 ### **5. Wix**
 
-![Wix]({{ "/assets/img/posts/2024-01-09-Comparison-of-Global-Blogging-Services/05.png"}})
+![Wix]({{ "/images/posts/2024-01-09-Comparison-of-Global-Blogging-Services/05.png"}})
 
 #### **Features:**
 

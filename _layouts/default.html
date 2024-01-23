@@ -1,19 +1,44 @@
 <!DOCTYPE html>
-<!--
-    Type on Strap jekyll theme v2.4.8
-    Theme free for personal and commercial use under the MIT license
-    https://github.com/sylhare/Type-on-Strap/blob/master/LICENSE
--->
 <html lang="en">
-  {% capture _head %}{% include default/head.liquid %}{% endcapture %}
-  {{ _head | split: " " | join: " "}}
-  <body>
-    {% capture _navbar %}{% include default/navbar.liquid %}{% endcapture %}
-    {{ _navbar | split: " " | join: " "}}
-    <div class="content">
-      {{ content }}
+
+{% include head.html %}
+
+<body>
+
+  {% if site.data.settings.google-analytics %}
+    {% include google-analytics.html %}
+  {% endif %}
+
+  <!-- begin global wrap -->
+  <div class="global-wrap">
+
+    {% if site.data.settings.hero.hero__image and page.url == '/' %}
+    <!-- begin hero image -->
+    <div class="hero__image">
+      <div class="hero__image__inner">
+        <img class="lazy" data-src="{{site.data.settings.hero.hero__image}}" alt="{{site.data.settings.title}}">
+      </div>
     </div>
-    {% capture _footer %}{% include default/footer.liquid %}{% endcapture %}
-    {{ _footer | split: " " | join: " "}}
-  </body>
+    <!-- end hero image -->
+    {% endif %}
+  
+    {% include header.html %}
+  
+    <!-- begin content -->
+    <main class="content" aria-label="Content">
+      {{ content }}
+    </main>
+    <!-- end content -->
+  
+    {% include subscribe.html %}
+  
+    {% include footer.html %}
+
+  </div>
+  <!-- end global wrap -->
+
+  <script src="{{ site.baseurl }}/js/scripts.js"></script>
+  <script src="{{ site.baseurl }}/js/common.js"></script>
+</body>
+
 </html>

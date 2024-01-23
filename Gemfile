@@ -1,4 +1,5 @@
-source "https://rubygems.org"
-gemspec
-
-gem 'jekyll-sitemap'
+source 'https://rubygems.org'
+gem "bundler"
+gem "jekyll"
+gem "jekyll-paginate"
+gem "jekyll-sitemap"

@@ -1,11 +1,12 @@
 ---
 layout: post
 title: "Creating a Github Blog: Part 2 -  Applying a Jekyll Theme"
-color: "#ffa200"
-tags: [Github, Blog, Github Pages, ruby, rbenv, Jekyll]
+date:   2024-01-17 12:37:00 +0900
+author: padawanjoy
+tags: [github, blog, github-pages, ruby, rbenv, Jekyll]
 ---
 
-Hello everyone! [Last time, we learned how to start a GitHub blog](https://padawanjoy.com/2024/01/11/Part1-Building-Your-First-GitHub-Pages-Blog.html). Now, let's decorate our blog by applying a Jekyll theme.
+Hello everyone! [Last time, we learned how to start a GitHub blog](https://padawanjoy.com/blog/part1-building-your-first-github-pages-blog). Now, let's decorate our blog by applying a Jekyll theme.
 
 <br>
 ## **Installing Ruby**
@@ -87,7 +88,7 @@ padawanjoy@MacStudio padawanjoy.github.io % bundle exec jekyll serve
 ```
 Visit `http://127.0.0.1:4000/` or `http://localhost:4000/` in your browser to see your blog.
 
-![Previewing Your Jekyll Blog Locally]({{ "/assets/img/posts/2024-01-17-Part2-Applying-a-Jekyll-Theme/01.png"}})
+![Previewing Your Jekyll Blog Locally]({{ "/images/posts/2024-01-17-Part2-Applying-a-Jekyll-Theme/01.png"}})
 
 To stop the server running on your computer, press `Cmd+C` if you're using a Mac, or `Ctrl+C` if you're on Windows.
 
@@ -127,7 +128,7 @@ Server address: http://127.0.0.1:4000/Type-on-Strap/
 Server running... press ctrl-c to stop.
 
 ```
-![Verifying the Theme Application]({{ "/assets/img/posts/2024-01-17-Part2-Applying-a-Jekyll-Theme/02.png"}})
+![Verifying the Theme Application]({{ "/images/posts/2024-01-17-Part2-Applying-a-Jekyll-Theme/02.png"}})
 The theme has been successfully applied.
 
 <br>

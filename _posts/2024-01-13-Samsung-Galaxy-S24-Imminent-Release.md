@@ -1,15 +1,16 @@
 ---
 layout: post
 title: "Samsung Galaxy S24 Imminent Release: Leaked Info Reveals Exciting Features!"
-color: "#84cc7e"
-thumbnail: "assets/img/posts/2024-01-13-Samsung-Galaxy-S24-Imminent-Release/01.png"
-tags: [SamsungGalaxyS24, GalaxyUnpacked2024, SamsungInnovation, GalaxyS24Leak, TechTrends2024, SamsungAI, NextGenSmartphone, Snapdragon8Gen3, GalaxyS24Ultra, SamsungCES2024, GalaxyExperienceSpace, SmartphoneRevolution, 5GTechnology, AIpoweredSmartphone, SamsungUnveil, Samsung, Galaxy, Android]
+date:   2024-01-13 15:05:00 +0900
+author: padawanjoy
+image:  '/images/posts/2024-01-13-Samsung-Galaxy-S24-Imminent-Release/01.png'
+tags: [samsung, unpacked-2024, galaxy-s24]
 ---
 
 ## **New Colors, Brighter Display!**
 The much-anticipated Samsung Galaxy S24 is finally unveiling itself! According to recently leaked internal meeting documents, the Galaxy S24 series will be available in a variety of colors like Titanium Black, Grey, Violet, and Yellow. The S24 and S24 Plus models boast larger screens with reduced bezels. Impressively, they offer a brightness of 2,600 nits, promising a clearer display even under sunlight!
 
-![Invitation for the Samsung Unpacked event]({{ "/assets/img/posts/2024-01-13-Samsung-Galaxy-S24-Imminent-Release/01.png"}})
+![Invitation for the Samsung Unpacked event]({{ "/images/posts/2024-01-13-Samsung-Galaxy-S24-Imminent-Release/01.png"}})
 
 <br>
 ## **The Secret Behind Performance: The New Chipset!**

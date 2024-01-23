@@ -1,57 +1,57 @@
-# SITE CONFIGURATION
-baseurl: ""
-url: "https://padawanjoy.com"
+#-------------------------------
+# General Site Settings
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://padawanjoy.com" # the base hostname & protocol for your site, e.g. http://example.com
 
-# THEME-SPECIFIC CONFIGURATION
-title: Padawan Joy                                    # site's title
-description: "Development, Design, Drawing, and some ideas"      # used by search engines
-avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
-favicon: assets/favicon.ico                             # Icon displayed in the tab
 
-# Header and footer text
-header_text: Dev, design, and some ideas.  # Change Blog header text
-header_feature_image: assets/img/header/mainbanner.jpeg
-header_feature_image_responsive: true
-footer_text: >
-  &copy; <a href="https://instagram.com/padawan.joy">Padawan Joy.</a>
+#-------------------------------
+# Build Settings
+markdown: kramdown
+permalink: /:title
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
 
-# Blog
-excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
-post_navigation: true
-color_image: /assets/img/lineart.png                    # A bit transparent for color posts.
+paginate: 7
+paginate_path: "/blog/page/:num"
 
-# Features
-# More in the _data folder for share buttons, author and language
-# For layout customization, go to the "_sass > base" folder, and check "_variables.scss"
-katex: true                                             # Enable if using math markup
-mermaid: default                                        # Enable mermaid-js for diagrams, use theme: base, forest, dark, default, neutral
-google_analytics: "382139328"                                      # Measurement ID, e.g. "G-00000"
-cookie_consent: false                                   # To respect the usage of cookies
-color_theme: auto                                       # auto, dark or light
 
-# Comments options
-comments:
-  disqus_shortname: padawanjoy                                    # Your discus shortname for comments
-  cusdis_app_id:                                        # Your cusdis data-app-id
-  utterances:                                           # Enable by filling below information. For more info, go to https://utteranc.es
-    repo:                                               # your public comments repository (e.g. owner/repo)
-    issue-term:                                         # Issue term (e.g. "comment" consider issues with this word in the title as comments)
+#-------------------------------
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /blog/:slug
+  authors:
+    output: false
+    permalink: /:name
 
-# PAGINATION
-paginate: 10
-paginate_path: "/blog/page:num"
+# Pages Path
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
 
-# PORTFOLIO
-# collections:
-#   portfolio:
-#     output: true
-#     permalink: /:collection/:name
 
-# BUILD SETTINGS
 sass:
+  sass_dir: _sass
   style: compressed
-plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
-exclude: [".jekyll-cache", ".jekyll-metadata", ".idea", "vendor/*", "assets/node_modules/*"]
-
-# theme: type-on-strap                                  # if using the theme as a jekyll theme gem
-# remote_theme: sylhare/Type-on-Strap                     # If using as a remote_theme in github

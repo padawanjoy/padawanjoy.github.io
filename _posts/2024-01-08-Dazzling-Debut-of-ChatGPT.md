@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Dazzling Debut of ChatGPT: A Revolution in AI Conversations"
-color: "#23a29a"
-feature-img: "assets/img/posts/2024-01-08-Dazzling-Debut-of-ChatGPT/01.jpg"
-thumbnail: "assets/img/posts/2024-01-08-Dazzling-Debut-of-ChatGPT/01.jpg"
-tags: [ChatGPT, AI, NLP, GenerativeAI]
+date:   2024-01-08 11:14:00 +0900
+author: padawanjoy
+image:  '/images/posts/2024-01-08-Dazzling-Debut-of-ChatGPT/01.jpg'
+tags: [chatgpt, ai, nlp, generative-ai, gpt]
 ---
 
 In the wake of the awe-inspiring debut of AlphaGo in 2016, ChatGPT has become the hottest topic in the tech world today. Surpassing one million users within just a week of its release, ChatGPT has garnered significant attention and expectations not only in the AI realm but across various industries. Renowned global services have already started implementing ChatGPT, with some even launching similar generative AI models.
@@ -17,17 +17,17 @@ ChatGPT, launched by OpenAI on December 1, 2022, stands as an interactive AI mod
 
 ChatGPT is an evolution of these GPT models, offered in both free and premium versions, easily accessible on the OpenAI website. Engaging with ChatGPT involves users inputting questions into a chatbox, prompting the model to generate responses. Unlike conventional chatbots that often provide repetitive responses in predetermined patterns, ChatGPT can craft compelling narratives, write essays, novels, poetry, and even code proficiently.
 
-![ChatGPT coding a game of Go in JavaScript]({{ "/assets/img/posts/2024-01-08-Dazzling-Debut-of-ChatGPT/02.png"}})
+![ChatGPT coding a game of Go in JavaScript]({{ "/images/posts/2024-01-08-Dazzling-Debut-of-ChatGPT/02.png"}})
 
 ## Is ChatGPT Truly Remarkable?
 
 According to [NIA][nia]'s "[THE AI REPORT 2023-1][nia-the-ai-report-2023-1]", ChatGPT achieved over a million users within just five days of its release. To put this into perspective, well-known services like Netflix took 3.5 years to reach a similar milestone. The sheer scale of attention directed at ChatGPT is evident.
 
-![Comparison of Time Taken to Reach 1 Million Users Across Major Services]({{ "/assets/img/posts/2024-01-08-Dazzling-Debut-of-ChatGPT/03.png"}})
+![Comparison of Time Taken to Reach 1 Million Users Across Major Services]({{ "/images/posts/2024-01-08-Dazzling-Debut-of-ChatGPT/03.png"}})
 
 Another impressive aspect is the scale of parameters within the model. While GPT-1 in 2018 had approximately 117 million parameters, GPT-3.5, released in November 2022, boasted a staggering 175 billion parameters—1500 times more. This significant increase is credited with enhancing the model's overall performance.
 
-![Comparison of parameter count across GPT versions]({{ "/assets/img/posts/2024-01-08-Dazzling-Debut-of-ChatGPT/04.png"}})
+![Comparison of parameter count across GPT versions]({{ "/images/posts/2024-01-08-Dazzling-Debut-of-ChatGPT/04.png"}})
 
 Various experiments have been conducted to assess ChatGPT's capabilities, yielding astounding results. Predictions suggest that ChatGPT would score between B and B- on the [Wharton MBA][wharton-mba] exam and meet passing criteria in two out of seven subjects in the U.S. Bar Exam ([ssrn][ssrn]). Furthermore, it achieved the passing threshold in the U.S. Medical Licensing Exam ([USMLE][usmle]).
 
@@ -49,7 +49,7 @@ Despite its remarkable performance, ChatGPT is not without its imperfections.
 
 Firstly, caution is warranted regarding the accuracy of information. While ChatGPT has trained on massive datasets, it may provide inaccurate responses to questions beyond its training data or fail to deliver up-to-date information. In such cases, ChatGPT has been observed to acknowledge its limitations and issue corrections.
 
-![ChatGPT correcting itself for not having the latest information]({{ "/assets/img/posts/2024-01-08-Dazzling-Debut-of-ChatGPT/05.jpg"}})
+![ChatGPT correcting itself for not having the latest information]({{ "/images/posts/2024-01-08-Dazzling-Debut-of-ChatGPT/05.jpg"}})
 
 OpenAI's CEO, Sam Altman, has also emphasized the need for caution, suggesting that using ChatGPT's responses as references or drafts would be prudent.
 

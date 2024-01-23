@@ -25,7 +25,25 @@ layout: null
                 <priority>0.80</priority>
             </url>
             <url>
-                <loc>https://padawanjoy.com/tags/</loc>
+                <loc>https://padawanjoy.com/blog/</loc>
+                {% if post.lastmod == null %}
+                    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+                {% else %}
+                    <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
+                {% endif %}
+                <priority>0.80</priority>
+            </url>
+            <url>
+                <loc>https://padawanjoy.com/padawanjoy</loc>
+                {% if post.lastmod == null %}
+                    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+                {% else %}
+                    <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
+                {% endif %}
+                <priority>0.80</priority>
+            </url>
+            <url>
+                <loc>https://padawanjoy.com/tags</loc>
                 {% if post.lastmod == null %}
                     <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
                 {% else %}

@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Creating a Github Blog: Part 1 - Building Your First GitHub Pages Blog"
-color: "#f96868"
-tags: [Github, Blog, Github Pages]
+date:   2024-01-11 16:43:00 +0900
+author: padawanjoy
+tags: [github, blog, github-pages]
 ---
 
 Hello, everyone! Today, I'm excited to share with you a fun and easy way to create your own GitHub blog. GitHub blogs have many advantages, but the process might seem a bit complex for beginners. I hope this post helps you out. 
@@ -15,7 +16,7 @@ Written in January 2024 on a Mac OS, remember that the steps may vary slightly d
 1. First, go to [github.com](http://github.com/) and log in. If you haven’t registered yet, complete the registration process.
 1. Once logged in, click the “Create repository” button on your Dashboard.
 
-![Click the “Create repository” button]({{ "/assets/img/posts/2024-01-11-Part1-Building-Your-First-GitHub-Pages-Blog/01.png"}})
+![Click the “Create repository” button]({{ "/images/posts/2024-01-11-Part1-Building-Your-First-GitHub-Pages-Blog/01.png"}})
 
 <br>
 ## **Creating Your Repository**
@@ -24,13 +25,13 @@ Written in January 2024 on a Mac OS, remember that the steps may vary slightly d
 1. Choose “Public” and check the “Add a README file” option.
 1. Click “Create repository” and your **`yourusername.github.io`** repository will be created.
 
-![Creating Repository]({{ "/assets/img/posts/2024-01-11-Part1-Building-Your-First-GitHub-Pages-Blog/02.png"}})
+![Creating Repository]({{ "/images/posts/2024-01-11-Part1-Building-Your-First-GitHub-Pages-Blog/02.png"}})
 
 <br>
 ## **Downloading Your Blog Source Files**
 
 1. Next, click the "Code" button and copy the Clone address that appears.
-![Copy the Clone address]({{ "/assets/img/posts/2024-01-11-Part1-Building-Your-First-GitHub-Pages-Blog/03.png"}})
+![Copy the Clone address]({{ "/images/posts/2024-01-11-Part1-Building-Your-First-GitHub-Pages-Blog/03.png"}})
 1. Open your terminal.
 - For Mac users, you can find the Terminal using Cmd+Space for “Spotlight Search”.
 - Windows users can search for "cmd" in the search bar to open CMD.
@@ -39,7 +40,7 @@ Written in January 2024 on a Mac OS, remember that the steps may vary slightly d
 <br>
     If GitHub authentication is required, enter your GitHub username as the username and your personal access token as the password. If you are not familiar with what a personal access token is, or if you have not yet obtained one, refer to the post below.
     
-    > [Generating a GitHub Personal Access Token](https://padawanjoy.com/2024/01/10/Generating-a-GitHub-Personal-Access-Token.html)
+    > [Generating a GitHub Personal Access Token](https://padawanjoy.com/blog/generating-a-github-personal-access-token)
 
 <br>
 If you want to clone to the folder path **`/Users/padawanjoy/Documents/Blog`**, then you should enter it as follows.
@@ -68,10 +69,10 @@ padawanjoy@MacStudio padawanjoy.github.io % git push -u origin main
 1. Visit **`https://github.com/yourusername/yourusername.github.io`** to ensure everything has been pushed correctly.
 <br>
     As shown in the picture below, a green check mark in the area circled in red indicates that the _git push_ is complete. When the _git push_ is in progress, an yellow dot will be displayed.
-    ![git push is complete]({{ "/assets/img/posts/2024-01-11-Part1-Building-Your-First-GitHub-Pages-Blog/04.png"}})
+    ![git push is complete]({{ "/images/posts/2024-01-11-Part1-Building-Your-First-GitHub-Pages-Blog/04.png"}})
 1. Now, access **`https://yourusername.github.io`** in your browser. You should see the message "Welcome to my new GitHub Blog!"
 
 <br>
 ## **Wrapping Up**
 
-That’s the entire process of creating a GitHub blog. Not too difficult, right? Now, you can have your own space on the internet. However, it's not quite looking like a blog yet. It's now time to start decorating your blog. [Stay tuned for the next post, where we’ll explore how to beautify your newly created blog](https://padawanjoy.com/2024/01/17/Part2-Applying-a-Jekyll-Theme.html). Stay excited! 🌟
+That’s the entire process of creating a GitHub blog. Not too difficult, right? Now, you can have your own space on the internet. However, it's not quite looking like a blog yet. It's now time to start decorating your blog. [Stay tuned for the next post, where we’ll explore how to beautify your newly created blog](https://padawanjoy.com/blog/part2-applying-a-jekyll-theme). Stay excited! 🌟
