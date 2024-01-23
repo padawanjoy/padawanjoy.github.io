@@ -26,7 +26,7 @@ collections:
     output: true
     permalink: /blog/:slug
   authors:
-    output: false
+    output: true
     permalink: /:name
 
 # Pages Path
