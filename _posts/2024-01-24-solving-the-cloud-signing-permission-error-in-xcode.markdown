@@ -24,17 +24,9 @@ However, obtaining Admin rights in every scenario is not always feasible. In suc
 !['Access to Cloud Managed Distribution Certificate' option]({{site.baseurl}}/images/posts/2024-01-24-solving-the-cloud-signing-permission-error-in-xcode/03.png)
 *'Access to Cloud Managed Distribution Certificate' option*
 
-If this request is challenging or if you cannot wait for a timely application, there is another solution. In Xcode, go to the 'Signing & Capabilities' section and uncheck the 'Automatically manage signing' option. 
-
-![uncheck the 'Automatically manage signing' option]({{site.baseurl}}/images/posts/2024-01-24-solving-the-cloud-signing-permission-error-in-xcode/04.png)
-*Uncheck the 'Automatically manage signing' option*
-
-Then, manually set up a provisioning profile. You can download this profile from the ['Certificates, Identifiers & Profiles' page](https://developer.apple.com/account/resources/profiles/list). Once downloaded, double-clicking the profile will add it to the Keychain Access, and it will be available for use in Xcode.
-
 To summarize, the solutions to resolve the Cloud signing permission error are as follows:
 
 1. Obtain Account Holder or Admin rights in the Apple Developer Program.
 2. In the Users and Access page, ensure the 'Access to Cloud Managed Distribution Certificate' option is enabled.
-3. In Xcode, uncheck the 'Automatically manage signing' option and use a downloaded provisioning profile.
 
 We hope this article helps you in your development work. May it make navigating the various challenges a bit smoother. Best of luck! 🖖
