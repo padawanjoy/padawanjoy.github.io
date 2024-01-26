@@ -4,6 +4,7 @@ title: "Creating a Github Blog: Part 1 - Building Your First GitHub Pages Blog"
 date:   2024-01-11 16:43:00 +0900
 author: padawanjoy
 tags: [github, blog, github-pages]
+featured: true
 ---
 
 Hello, everyone! Today, I'm excited to share with you a fun and easy way to create your own GitHub blog. GitHub blogs have many advantages, but the process might seem a bit complex for beginners. I hope this post helps you out. 

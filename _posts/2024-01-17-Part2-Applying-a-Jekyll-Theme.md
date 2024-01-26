@@ -4,6 +4,7 @@ title: "Creating a Github Blog: Part 2 -  Applying a Jekyll Theme"
 date:   2024-01-17 12:37:00 +0900
 author: padawanjoy
 tags: [github, blog, github-pages, ruby, rbenv, Jekyll]
+featured: true
 ---
 
 Hello everyone! [Last time, we learned how to start a GitHub blog](https://padawanjoy.com/blog/part1-building-your-first-github-pages-blog). Now, let's decorate our blog by applying a Jekyll theme.
