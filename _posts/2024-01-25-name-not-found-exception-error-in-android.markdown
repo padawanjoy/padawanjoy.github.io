@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Understanding and Resolving the PackageManager$NameNotFoundException Error in Android App Development
+title:  Understanding and Resolving the PackageManager $ NameNotFoundException Error in Android App Development
 date:   2024-01-25 17:10:00 +0900
 author: padawanjoy
 image:  '/images/posts/2024-01-25-name-not-found-exception-error-in-android/01.jpg'
