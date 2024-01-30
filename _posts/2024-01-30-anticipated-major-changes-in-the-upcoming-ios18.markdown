@@ -4,7 +4,7 @@ title:  Anticipated Major Changes in the Upcoming iOS 18
 date:   2024-01-30 11:15:00 +0900
 author: padawanjoy
 image:  '/images/posts/2024-01-30-anticipated-major-changes-in-the-upcoming-ios18/01.png'
-tags:   [apple, ios18, ai]
+tags:   [apple, ios18, ai, ios]
 # tags_color: '#6b96df'
 featured: false
 ---
