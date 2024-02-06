@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  Understanding Hoisting in JavaScript
-date:   2024-02-06 16:28:00 +0900
+date:   2024-02-06 13:13:00 +0900
 author: padawanjoy
-image:  '/images/posts/2024-02-05-understanding-hoisting-in-javascript/01.png'
+image:  '/images/posts/2024-02-06-understanding-hoisting-in-javascript/01.png'
 tags:   [javascript, hoisting]
 # tags_color: '#6b96df'
 featured: true
@@ -50,7 +50,7 @@ The function **`foo`** is defined using a declaration, so it can be called befor
 ## Why Hoisting Matters
 
 Understanding hoisting is crucial for predicting the order of code execution and preventing bugs. It is especially important to understand the differences between **`var`**, **`let`**, and **`const`** and to use them appropriately.
-(Please refer to [this post](https://padawanjoy.com/blog/declaring-variables-in-javascript-var-vs-let-const) to understand the differences between **`var`**, **`let`**, and **`const`**.)
+<!-- (Please refer to [this post](https://padawanjoy.com/blog/declaring-variables-in-javascript-var-vs-let-const) to understand the differences between **`var`**, **`let`**, and **`const`**.) -->
 
 ## Writing Good Code
 

@@ -3,7 +3,7 @@ layout: post
 title:  Understanding Scope in JavaScript
 date:   2024-02-05 16:40:00 +0900
 author: padawanjoy
-image:  '/images/posts/2024-02-05-understanding-scope-in-javascript/01.jpg'
+image:  '/images/posts/2024-02-05-understanding-scope-in-javascript/01.png'
 tags:   [javascript, scope]
 # tags_color: '#6b96df'
 featured: true
