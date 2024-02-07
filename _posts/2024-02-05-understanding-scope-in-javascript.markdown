@@ -5,7 +5,7 @@ date:   2024-02-05 16:40:00 +0900
 author: padawanjoy
 image:  '/images/posts/2024-02-05-understanding-scope-in-javascript/01.png'
 tags:   [javascript, scope]
-# tags_color: '#6b96df'
+tags_color: '#db9e00'
 featured: true
 ---
 Scope in programming languages defines the range in which variables, functions, and other identifiers are accessible. In JavaScript, scope determines how and where variables can be referenced and accessed throughout your code. This post delves into the intricacies of JavaScript's scope, explaining different types such as global scope, local scope, function scope, and block scope, all accompanied by illustrative example codes.

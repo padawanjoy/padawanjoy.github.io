@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Declaring Variables in JavaScript: var vs. let, const"
-date:   2024-02-07 16:20:00 +0900
+date:   2024-02-07 09:01:00 +0900
 author: padawanjoy
-image:  '/images/posts/2024-02-05-declaring-variables-in-javascript-var-vs-let-const/01.png'
+image:  '/images/posts/2024-02-07-declaring-variables-in-javascript-var-vs-let-const/01.png'
 tags:   [javascript, var, let, const]
-# tags_color: '#6b96df'
+tags_color: '#db9e00'
 featured: true
 ---
 JavaScript continues to evolve, and this evolution impacts even the fundamental aspects of the language. Variable declaration, while basic, is a crucial part of programming. In this blog post, we will delve into how to use **`var`**, **`let`**, and **`const`** in JavaScript, exploring each of their advantages and disadvantages, and when to use them.
@@ -99,9 +99,9 @@ for (let j = 0; j < 5; j++) {
 console.log(j); // ReferenceError: j is not defined
 
 // Using const
-const country = 'the UK';
-console.log(country); // the UK
-country = 'USA'; // TypeError: Assignment to constant variable.
+const tool = 'Xcode';
+console.log(tool); // Xcode
+tool = 'Android Studio'; // TypeError: Assignment to constant variable.
 ```
 
 These examples demonstrate the basic usage and differences between **`var`**, **`let`**, and **`const`**. Understanding and appropriately using these differences is key to effective JavaScript programming.
