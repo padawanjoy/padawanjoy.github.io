@@ -8,7 +8,7 @@ tags:   [android, detecting, rooting]
 tags_color: '#a1c648'
 featured: true
 ---
-Hello, mobile app developers! Following last post on iOS jailbreak detection, this time we'll delve into how to detect rooting on Android devices in detail. Rooting provides users with deeper access to their Android device's operating system but comes with its share of security risks. As app developers, it's crucial for us to detect and respond to rooted devices to ensure user security.
+Hello, mobile app developers! Following [last post on iOS jailbreak detection](https://padawanjoy.com/blog/guide-to-detecting-ios-jailbreaking-for-developers), this time we'll delve into how to detect rooting on Android devices in detail. Rooting provides users with deeper access to their Android device's operating system but comes with its share of security risks. As app developers, it's crucial for us to detect and respond to rooted devices to ensure user security.
 
 ## What is Rooting?
 
