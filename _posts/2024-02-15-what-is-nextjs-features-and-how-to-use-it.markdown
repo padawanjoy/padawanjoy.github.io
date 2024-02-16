@@ -60,7 +60,7 @@ In the latest versions of Next.js, the distinction between client components and
 You're importing a component that needs useState. It only works in a Client Component but none of its parents are marked with "use client", so they're Server Components by default.
 ```
 
-This means that certain components must be explicitly marked to render only on the client side. Detailed discussions on this topic will be covered in a separate post.
+This means that certain components must be explicitly marked to render only on the client side. Detailed discussions on [this topic will be covered in a separate post](https://padawanjoy.com/blog/resolving-errors-with-hooks-like-usestate-in-nextjs).
 
 ## Conclusion
 
