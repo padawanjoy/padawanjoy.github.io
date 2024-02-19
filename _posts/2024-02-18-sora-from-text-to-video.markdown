@@ -38,5 +38,3 @@ Sora redefines the limits of AI technology, enabling creative transformations fr
 ## Conclusion
 
 This article aims to spark reflection on the transformative potential of innovative AI technologies like Sora and their societal implications. The rapid advancement of AI technology brings daily surprises, placing us at the heart of this innovation.
-
-I will soon take a closer look at the technical report for the Sora model released by OpenAI and return with a post about it.
