@@ -5,7 +5,7 @@ date:   2024-02-22 12:43:00 +0900
 author: padawanjoy
 image:  '/images/posts/2024-02-22-what-is-redux-how-to-use-it/01.webp'
 tags:   [redux, state, react, javascript]
-# tags_color: '#e76797'
+tags_color: '#844eae'
 featured: true
 ---
 In the realm of web development, state management plays a crucial role in determining the user experience. Maintaining a consistent state and updating it in a predictable manner across complex applications can pose a significant challenge to developers. Redux was created to address these issues. This article will thoroughly explain what Redux is, why it's necessary, and how to use it effectively.
