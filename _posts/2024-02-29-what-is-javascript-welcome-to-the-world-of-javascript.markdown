@@ -30,9 +30,7 @@ To write JavaScript code, all you need is a text editor. For simple scripts, 'No
 Let’s write some JavaScript to display "Hello, JavaScript!" on the screen. Copy the following code and place it between the **`<script>`** tags of an HTML file.
 
 ```javascript
-<script>
   alert('Hello, JavaScript!');
-</script>
 ```
 
 When you open this HTML file in a web browser, a popup window containing the message 'Hello, JavaScript!' should appear. This indicates that your JavaScript code has been successfully executed.
