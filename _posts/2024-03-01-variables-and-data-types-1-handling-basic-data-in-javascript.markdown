@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Variables and Data Types (1): Handling Basic Data in JavaScript"
-date:   2024-03-01 10:21:00 +0900
+date:   2024-03-01 16:39:00 +0900
 author: padawanjoy
 image:  '/images/posts/2024-03-01-variables-and-data-types-1-handling-basic-data-in-javascript/01.webp'
 tags:   [javascript, js-dev-course, variable, data-type, number, string, boolean, 'null', undefined]
