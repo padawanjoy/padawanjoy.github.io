@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Variables and Data Types (2): Understanding Complex Data Types in JavaScript"
-date:   2024-03-02 10:11:00 +0900
+date:   2024-03-02 21:57:00 +0900
 author: padawanjoy
 image:  '/images/posts/2024-03-02-variables-and-data-types-2-understanding-complex-data-types-in-javascript/01.webp'
 tags:   [javascript, js-dev-course, data-type, object, array, function]
