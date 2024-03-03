@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Operators and Expressions: Manipulating Data with JavaScript Operators"
-date:   2024-03-03 10:41:00 +0900
+date:   2024-03-03 23:01:00 +0900
 author: padawanjoy
 image:  '/images/posts/2024-03-03-operators-and-expressions-manipulating-data-with-javascript-operators/01.webp'
 tags:   [javascript, js-dev-course, operator, arithmetic-operators, comparison-operators, logical-operators]
