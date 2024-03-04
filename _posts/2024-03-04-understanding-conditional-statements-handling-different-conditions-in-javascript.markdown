@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Understanding Conditional Statements: Handling Different Conditions in JavaScript"
-date:   2024-03-04 10:07:00 +0900
+date:   2024-03-04 12:51:00 +0900
 author: padawanjoy
 image:  '/images/posts/2024-03-04-understanding-conditional-statements-handling-different-conditions-in-javascript/01.webp'
 tags:   [javascript, js-dev-course, conditional-statements, if-else, switch]
