@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Understanding Loops (1): Performing Repetitive Tasks with for Loops"
-date:   2024-03-05 08:40:00 +0900
+date:   2024-03-05 22:54:00 +0900
 author: padawanjoy
 image:  '/images/posts/2024-03-05-understanding-loops-1-performing-repetitive-tasks-with-for-loops/01.webp'
 tags:   [javascript, js-dev-course, loops, for-loops]
