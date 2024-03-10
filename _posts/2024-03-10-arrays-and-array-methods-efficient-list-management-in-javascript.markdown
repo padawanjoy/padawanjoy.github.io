@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Arrays and Array Methods: Efficient List Management in JavaScript"
-date:   2024-03-10 20:38:00 +0900
+date:   2024-03-10 22:47:00 +0900
 author: padawanjoy
 image:  '/images/posts/2024-03-10-arrays-and-array-methods-efficient-list-management-in-javascript/01.webp'
 tags:   [javascript, js-dev-course, array, array-method]
