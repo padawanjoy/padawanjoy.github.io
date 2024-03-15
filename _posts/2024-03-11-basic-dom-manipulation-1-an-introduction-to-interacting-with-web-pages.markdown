@@ -56,4 +56,4 @@ demoElement.textContent = "Changed through DOM manipulation!";
 ```
 
 ## Conclusion and Preview of the Next Post
-Today, we learned the basics of the DOM and how to select and manipulate web page elements. This knowledge is essential for making web pages dynamic. In the next post, 'Basic DOM Manipulation (2): Manipulating Web Page Elements with JavaScript', we will explore how to make web pages more dynamic using JavaScript. Stay tuned and keep learning with us!
+Today, we learned the basics of the DOM and how to select and manipulate web page elements. This knowledge is essential for making web pages dynamic. In the next post, 'Basic DOM Manipulation (2): Manipulating Web Page Elements with JavaScript', we will explore how to make web pages more dynamic using JavaScript. Stay tuned!

@@ -63,4 +63,4 @@ myElement.setAttribute('name', 'newName');  // Change attribute
 Now it's your turn. Use JavaScript to add a new element to the web page and change its style. For instance, add a new **`<div>`** to the page and change its background color.
 
 ## Conclusion and Preview of the Next Post
-Today, we learned about using JavaScript to manipulate web page elements. In our next post, 'Handling Events: Responding to User Actions on Web Pages', we will explore how web pages handle user inputs and interactions. Stay tuned for more insights into making your web pages more interactive. Keep learning with us!
+Today, we learned about using JavaScript to manipulate web page elements. In our next post, 'Handling Events: Responding to User Actions on Web Pages', we will explore how web pages handle user inputs and interactions. Stay tuned for more insights into making your web pages more interactive.

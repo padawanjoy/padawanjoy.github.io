@@ -71,4 +71,4 @@ console.log(book.title);  // Outputs "Introduction to JavaScript"
 ```
 
 ## Conclusion and Preview of the Next Post
-Today, we learned the basic ways to use objects in JavaScript. Objects play a crucial role in structuring and managing data in JavaScript. In our next post, we will explore 'Arrays and Array Methods: Efficient List Handling in JavaScript.' Stay tuned and keep learning with us!
+Today, we learned the basic ways to use objects in JavaScript. Objects play a crucial role in structuring and managing data in JavaScript. In our next post, we will explore 'Arrays and Array Methods: Efficient List Handling in JavaScript.' Stay tuned!

@@ -72,4 +72,4 @@ hobbies.forEach(hobby => {
 ```
 
 ## Conclusion and Preview of the Next Post
-Today, we learned about arrays and basic array methods in JavaScript. In our next post, we will explore 'Basic DOM Manipulation (1): An Introduction to Interacting with Web Pages'. We will learn how JavaScript can be used to manipulate web pages. Stay tuned and keep learning with us!
+Today, we learned about arrays and basic array methods in JavaScript. In our next post, we will explore 'Basic DOM Manipulation (1): An Introduction to Interacting with Web Pages'. We will learn how JavaScript can be used to manipulate web pages. Stay tuned!

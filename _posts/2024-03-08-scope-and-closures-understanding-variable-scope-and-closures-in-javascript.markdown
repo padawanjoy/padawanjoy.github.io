@@ -73,4 +73,4 @@ console.log(person.getName());  // Outputs "John"
 ```
 
 ## Conclusion and Preview of the Next Post
-In this post, we covered the crucial concepts of scope and closures in JavaScript. Although these topics can be challenging to grasp, they are essential for understanding how JavaScript works. In our next post, we will explore 'Basic Objects: Structuring Data with Objects in JavaScript.' Stay tuned and keep learning with us!
+In this post, we covered the crucial concepts of scope and closures in JavaScript. Although these topics can be challenging to grasp, they are essential for understanding how JavaScript works. In our next post, we will explore 'Basic Objects: Structuring Data with Objects in JavaScript.' Stay tuned!
