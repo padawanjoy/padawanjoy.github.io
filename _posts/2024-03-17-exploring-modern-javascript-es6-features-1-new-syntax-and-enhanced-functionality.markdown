@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Exploring Modern JavaScript (ES6+) Features (1): New Syntax and Enhanced Functionality"
-date:   2024-03-17 22:47:00 +0900
+date:   2024-03-17 23:47:00 +0900
 author: padawanjoy
 image:  '/images/posts/2024-03-17-exploring-modern-javascript-es6-features-1-new-syntax-and-enhanced-functionality/01.webp'
 tags:   [javascript, js-dev-course, es6, template-literals, arrow-functions, destructuring-assignment, default-parameters]
