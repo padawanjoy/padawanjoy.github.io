@@ -1,37 +1,37 @@
 ---
 layout: post
-title: "Samsung Galaxy S24 Imminent Release: Leaked Info Reveals Exciting Features!"
+title: "삼성 갤럭시 S24 출시 임박: 유출된 정보로 알 수 있는 흥미로운 기능들!"
 date:   2024-01-13 15:05:00 +0900
 author: padawanjoy
 image:  '/images/posts/2024-01-13-Samsung-Galaxy-S24-Imminent-Release/01.png'
 tags: [samsung, unpacked-2024, galaxy-s24]
 ---
 
-## **New Colors, Brighter Display!**
-The much-anticipated Samsung Galaxy S24 is finally unveiling itself! According to recently leaked internal meeting documents, the Galaxy S24 series will be available in a variety of colors like Titanium Black, Grey, Violet, and Yellow. The S24 and S24 Plus models boast larger screens with reduced bezels. Impressively, they offer a brightness of 2,600 nits, promising a clearer display even under sunlight!
+## **새로운 색상, 더 밝은 디스플레이!**
+많은 기대를 모았던 삼성 갤럭시 S24가 곧 베일을 벗습니다! 최근 유출된 내부 회의 문서에 따르면, 갤럭시 S24 시리즈는 티타늄 블랙, 그레이, 바이올렛, 옐로우와 같은 다양한 색상으로 출시될 예정이라고 하네요. S24와 S24 플러스 모델은 더 큰 화면과 줄어든 베젤을 보여줄 것으로 보여집니다. 2,600 니트의 밝기를 제공하여, 햇빛 아래에서도 더욱 선명한 디스플레이를 보여줄 것 같습니다.
 
-![Invitation for the Samsung Unpacked event]({{ "/images/posts/2024-01-13-Samsung-Galaxy-S24-Imminent-Release/01.png"}})
-
-<br>
-## **The Secret Behind Performance: The New Chipset!**
-One of the biggest changes in the Galaxy S24 series is its chipset. It's expected to feature Qualcomm's Snapdragon 8 Gen 3 chip and Samsung's Exynos 2400 chip. Enhanced heat management means you can enjoy high-end gaming without interruptions.
+![삼성 언팩 이벤트 초대장]({{ "/images/posts/2024-01-13-Samsung-Galaxy-S24-Imminent-Release/01.png"}})
 
 <br>
-## **Innovative Camera Features!**
-The camera is the real highlight of the Galaxy S24 Ultra. It will feature a 50MP 5x optical zoom lens and support for 8K video, ensuring sharper photos and videos. Additionally, AI technologies like 'Multi-frame Processing' and 'Super Resolution' are set to significantly improve photo quality.
+## **성능의 비밀: 새로운 칩셋!**
+갤럭시 S24 시리즈에서 가장 큰 변화 중 하나는 칩셋입니다. 퀄컴의 스냅드래곤8 3세대 칩과 삼성의 엑시노스 2400 칩이 탑재될 것으로 예상됩니다. 향상된 발열 관리로 고사양 게임도 끊김 없이 즐길 수 있다고 하네요.
 
 <br>
-## **Qualcomm CEO's Expectations for AI Technology!**
-Cristiano Amon, Qualcomm's CEO, mentioned the Galaxy S24 series in his keynote at CES 2024, emphasizing the AI capabilities. The Galaxy S24 is expected to offer an astounding user experience, utilizing the Snapdragon 8 Gen 3's on-device AI features.
+## **혁신적인 카메라 기능!**
+갤럭시 S24 울트라의 예상 항목 중 하이라이트는 역시 카메라입니다. 50MP 5배 광학 줌 렌즈와 8K 비디오 지원을 특징으로 하여, 더욱 선명한 사진과 영상을 촬영할 수 있습니다. 또 '멀티 프레임 처리'와 '슈퍼 해상도'와 같은 AI 기술이 사진 품질을 크게 향상시켜 줄 것이라고 합니다.
 
 <br>
-## **'Galaxy AI' Experience Spaces Opening Worldwide!**
-Post the Galaxy Unpacked event, Samsung plans to open 'Galaxy AI' experience spaces in major cities like New York, Seoul, and London. Visitors will get to firsthand experience the new Galaxy products and see how 'Galaxy AI' can innovate daily life.
+## **퀄컴 CEO가 보는 AI 기술에 대한 기대!**
+퀄컴의 크리스티아노 아몬 CEO는 CES 2024에서 갤럭시 S24 시리즈에 대해 언급하며 AI 기능을 강조했습니다. 갤럭시 S24는 스냅드래곤8 3세대의 기기 내 AI 기능을 활용한 놀라운 사용자 경험을 제공할 것으로 기대됩니다.
 
 <br>
-## **Unpacked Event Schedule**
-Get ready to witness all these technological marvels! Samsung will reveal the new Galaxy products on January 17th at 10 AM (San Jose, USA time). The 'Samsung Galaxy Unpacked 2024' event will be livestreamed on [Samsung's Newsroom](https://news.samsung.com/kr/), website, and YouTube channel, so don't miss out!
+## **전 세계에 '갤럭시 AI' 체험 공간 오픈!**
+갤럭시 언팩 이벤트 후, 삼성은 뉴욕, 서울, 런던과 같은 주요 도시에 '갤럭시 AI' 체험 공간을 오픈할 계획이라고 합니다. 방문객들은 새로운 갤럭시 제품을 직접 체험하고 '갤럭시 AI'가 일상 생활을 어떻게 변화시킬지를 볼 수 있습니다.
 
 <br>
-## **In Conclusion**
-The Galaxy S24 series is set to be a testament to Samsung's technological prowess and innovation. With the upcoming reveal, excitement for these new products is mounting. Stay tuned for this thrilling presentation and experience the evolution of technology with us!
+## **언팩 이벤트 일정**
+삼성은 1월 17일 오전 10시(미국 산호세 시간)에 새로운 갤럭시 제품을 공개할 예정입니다. '삼성 갤럭시 언팩 2024' 이벤트는 [삼성 뉴스룸](https://news.samsung.com/kr/), 웹사이트, 유튜브 채널에서 생중계될 예정이니, 놓치지 마세요!
+
+<br>
+## **결론**
+갤럭시 S24 시리즈는 삼성의 기술력과 혁신을 증명하는 제품이 될 것 같습니다. 언팩 행사가 다가오며 이 새로운 제품에 대한 기대감이 고조되고 있습니다. 언팩 후에 또 소식을 다뤄보도록 하겠습니다!

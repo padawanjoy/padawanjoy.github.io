@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Understanding Hoisting in JavaScript
+title:  "JavaScript의 호이스팅에 대해 이해하기"
 date:   2024-02-06 13:13:00 +0900
 author: padawanjoy
 image:  '/images/posts/2024-02-06-understanding-hoisting-in-javascript/01.png'
@@ -8,15 +8,17 @@ tags:   [javascript, hoisting]
 tags_color: '#db9e00'
 featured: true
 ---
-Hoisting is one of those concepts in JavaScript that can cause quite a bit of confusion. But fear not! In this blog post, we will break down the concept of hoisting in a step-by-step manner that's easy for beginners to understand. We'll also include example codes to illustrate how it works in practice.
+호이스팅은 JavaScript에서 이해하기 어려울 수 있는 개념 중 하나입니다. 이번 포스트에서 초보자도 이해하기 쉽게 호이스팅 개념을 단계별로 알아보겠습니다. 실제로 작동하는 방식을 보여주는 예제 코드로 이해를 도울 수 있도록 작성해 보겠습니다.
 
-## What is Hoisting?
+## 호이스팅이란?
 
-Hoisting in JavaScript refers to the behavior where variable and function declarations are moved to the top of their containing scope before code execution. This means that declarations are stored in memory during the compile phase, allowing us to use variables and functions before they are actually declared in the code.
+호이스팅이란, 자바스크립트에서 변수나 함수의 선언을 코드가 실행되기 전에 해당 스코프의 가장 윗부분으로 끌어올리는 것을 말해요. 이 과정은 코드가 실제로 실행되기 전, 컴파일 단계에서 이루어져서 메모리에 저장됩니다. 그 결과, 변수나 함수가 코드상에서 실제로 선언되기 전에도 사용할 수 있게 되는 것이죠.
 
-### Variable Hoisting
+간단히 말해서, 자바스크립트에서는 코드를 작성할 때 변수나 함수를 어디에 선언하든 상관없이, 그 선언들이 내부적으로는 코드의 맨 위로 옮겨진다고 생각하시면 돼요. 이로 인해 선언하기 전에도 변수나 함수를 사용할 수 있는 특별한 현상이 발생하는 거죠.
 
-In JavaScript, you can declare variables using **`var`**, **`let`**, or **`const`**. Variables declared with **`var`** are initialized with undefined when hoisted, but variables declared with **`let`** and **`const`** are not initialized during hoisting.
+### 변수 호이스팅
+
+JavaScript에서는 **`var`**, **`let`**, **`const`**를 사용하여 변수를 선언할 수 있습니다. **`var`**로 선언된 변수는 호이스팅될 때 undefined로 초기화되지만, **`let`**과 **`const`**로 선언된 변수는 호이스팅 동안 초기화되지 않습니다.
 
 ```javascript
 console.log(x); // undefined
@@ -27,41 +29,45 @@ console.log(y); // ReferenceError: y is not defined
 let y = 10;
 ```
 
-In the example above, the **`var`**-declared variable **`x`** can be used due to hoisting, but its initial value is **`undefined`**. However, the **`let`**-declared variable **`y`** is hoisted but not initialized, so trying to access it before its declaration results in an error.
+위 예제에서 **`var`**로 선언된 변수 **`x`**는 호이스팅으로 인해 초기 값이 **`undefined`**로 부여되기 때문에 선언 전에 사용해도 오류가 발생하지 않습니다. 그러나 **`let`**으로 선언된 변수 **`y`**는 호이스팅되지만 초기화되지 않으므로, 선언 전에 접근하려고 하면 오류가 발생합니다.
 
-### Function Hoisting
+### 함수 호이스팅
 
-Function declarations are hoisted, allowing them to be called before they are defined in the code. However, function expressions are not hoisted.
+함수를 선언하는 방법에 따라서 그 함수가 어떻게 호이스팅되는지 차이가 있습니다. 함수를 선언하는 방식에는 크게 두 가지가 있는데, 하나는 '함수 선언문'을 사용하는 것이고 다른 하나는 '함수 표현식'을 사용하는 것입니다.
+
+예를 들어, **`foo`** 함수는 '함수 선언문'을 사용해서 만들어졌기 때문에, 자바스크립트가 코드를 실행하기 전에 이미 이 함수를 알고 있어요. 이로 인해 **`foo`** 함수는 코드 상에서 실제로 정의되기 전에도 호출할 수 있습니다. 즉, **`foo`** 함수는 코드 상단으로 호이스팅됩니다.
 
 ```javascript
 foo(); // "Hello, world!"
 function foo() {
     console.log("Hello, world!");
 }
+```
 
+반면에, **`bar`** 함수는 '함수 표현식'을 사용해서 변수에 할당되는 방식으로 만들어졌어요. 이 경우에는 변수 **`bar`** 자체는 호이스팅되지만, 함수로서의 정의는 호이스팅되지 않습니다. 따라서 **`bar`** 변수를 함수처럼 사용하기 전에는 그 변수에 함수가 할당되어 있어야 합니다. 그렇지 않으면 **`TypeError`**가 발생하게 되죠.
+
+```javascript
 bar(); // TypeError: bar is not a function
 var bar = function() {
     console.log("Hello, world!");
 };
 ```
 
-The function **`foo`** is defined using a declaration, so it can be called before its point in the code. However, **`bar`** is defined using a function expression assigned to a variable, so it is not hoisted.
+간단하게 말해서, '함수 선언문'으로 정의된 함수는 어디서든 호출할 수 있지만, '함수 표현식'으로 정의된 함수는 그 함수가 할당된 변수를 사용하기 전에 해당 함수가 정의되어 있어야 합니다.
 
-## Why Hoisting Matters
+## 호이스팅이 중요한 이유
 
-Understanding hoisting is crucial for predicting the order of code execution and preventing bugs. It is especially important to understand the differences between **`var`**, **`let`**, and **`const`** and to use them appropriately.
-(Please refer to [this post](https://padawanjoy.com/blog/declaring-variables-in-javascript-var-vs-let-const) to understand the differences between **`var`**, **`let`**, and **`const`**.)
+코드 실행 순서를 예측하고 버그를 방지하기 위해서는 호이스팅을 이해하는 것이 중요합니다. 특히 **`var`**, **`let`**, **`const`** 간의 차이점을 이해하고 적절히 사용하는 것이 중요하죠.
+(**`var`**, **`let`**, **`const`** 간의 차이점을 이해하려면 [이 글](https://padawanjoy.com/blog/declaring-variables-in-javascript-var-vs-let-const)을 참고하세요.)
 
-## Writing Good Code
+## 좋은 코드 작성하기
 
-To avoid confusion caused by hoisting, here are some recommendations:
+호이스팅으로 인한 혼란을 피하기 위한 몇 가지 권장사항은 다음과 같습니다:
 
-- Use **`let`** or **`const`** instead of **`var`** whenever possible.
-- Declare variables and functions before using them.
-- For readability and maintainability, it's good practice to place function declarations at the top of your code.
+- 가능한 한 **`var`** 대신 **`let`**이나 **`const`**를 사용하세요.
+- 사용하기 전에 변수와 함수를 선언하세요.
+- 가독성과 유지보수를 위해 함수 선언을 코드 상단에 위치시키는 것이 좋은 관행입니다.
 
-## Conclusion
+## 결론
 
-Hoisting is a fundamental concept in JavaScript that you must understand when writing and debugging your code. I hope this post has clarified what hoisting is and how it works, and that you'll be able to write more robust and error-free JavaScript code with this knowledge.
-
-Always keep in mind how hoisting affects your code. By understanding these basic concepts, you'll be able to delve deeper into the intricacies of JavaScript. Happy coding!
+호이스팅은 코드를 작성하고 디버깅할 때 반드시 이해해야 하는 JavaScript의 기본 개념입니다. 이 글이 호이스팅이 무엇이며 어떻게 작동하는지 명확히 이해하는 데 도움이 되었기를 바라며, 이 지식을 바탕으로 더 견고하고 오류가 없는 JavaScript 코드를 작성할 수 있기를 바라요!

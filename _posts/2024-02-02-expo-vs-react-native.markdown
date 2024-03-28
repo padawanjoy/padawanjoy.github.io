@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Expo vs. React Native: Which One Should You Choose?"
+title:  "Expo vs. React Native: 어떤 것을 선택해야 할까요?"
 date:   2024-02-02 12:00:00 +0900
 author: padawanjoy
 image:  '/images/posts/2024-02-02-expo-vs-react-native/01.png'
@@ -8,36 +8,36 @@ tags:   [react-native, expo]
 # tags_color: '#6b96df'
 featured: false
 ---
-In the world of mobile app development, two major platforms often come up in discussions: React Native and Expo. Both aim to simplify and make app development more accessible, but they come with their unique features and use cases. Let's dive into a detailed comparison to see which one might be the better fit for your next project.
+모바일 앱 개발을 할 때, React Native와 Expo 중 어떤걸 선택을 하면 좋을지 자주 논의됩니다. 두 플랫폼 모두 앱 개발을 단순화하고 더 접근하기 쉽게 만들기 위한 목표를 가지고 있지만, 각각 고유의 기능과 사용 사례를 제공합니다. 우리의 다음 프로젝트에 더 적합한 것이 무엇인지 알아보기 위해 자세히 비교해 보겠습니다.
 
-## What is React Native?
+## React Native란?
 
 ![React Native]({{site.baseurl}}/images/posts/2024-02-02-expo-vs-react-native/02.png)
-*React Native Official Website*
+*React Native 공식 웹사이트*
 
-React Native is an open-source mobile application framework developed by Facebook. It allows you to develop native apps for both iOS and Android with a single codebase, using JavaScript and React. This framework enables developers to achieve fast development cycles and provide a great user experience.
+React Native는 페이스북이 개발한 오픈 소스 모바일 애플리케이션 프레임워크입니다. 자바스크립트와 React를 사용하여 단일 코드베이스로 iOS와 Android를 위한 네이티브 앱을 개발할 수 있습니다. 이 프레임워크는 개발자들에게 빠른 개발 주기를 달성하고 훌륭한 사용자 경험을 제공할 수 있게 해줍니다.
 
-## What is Expo?
+## Expo란?
 
 ![Expo]({{site.baseurl}}/images/posts/2024-02-02-expo-vs-react-native/03.png)
-*Expo Official Website*
+*Expo 공식 웹사이트*
 
-Expo is a framework and platform for React Native app development, designed to further simplify the development process. It requires minimal setup and allows for easy start-up of mobile apps, with the ability to preview changes in real-time. Expo also provides a wide range of APIs and services, making it easy to access native features like the camera and location services.
+Expo는 React Native 앱 개발을 위한 프레임워크이자 플랫폼으로, 개발 과정을 더욱 단순화할 수 있도록 설계되었습니다. 최소한의 설정으로 모바일 앱 개발을 쉽게 시작할 수 있으며 실시간으로 변경 사항을 미리 볼 수 있습니다. Expo는 카메라 및 위치 서비스와 같은 네이티브 기능에 쉽게 접근할 수 있는 다양한 API와 서비스를 제공합니다.
 
-## Key Differences
+## 주요 차이점
 
-- **Setup and Getting Started**: Expo requires minimal initial setup, making it accessible for beginners. On the other hand, React Native involves some setup and requires an understanding of native code.
+- **설정 및 시작**: Expo는 최소한의 초기 설정이 필요하여 초보자에게 접근하기 쉽습니다. 반면, React Native는 일부 설정이 필요하며 네이티브 코드에 대한 이해가 요구됩니다.
    
-- **Access to Native Features**: React Native allows for direct interaction with native modules, offering access to nearly all native features. While Expo limits this access, it compensates by offering a plethora of easy-to-use APIs.
+- **네이티브 기능 접근**: React Native는 네이티브 모듈과 직접 상호 작용을 허용하여 거의 모든 네이티브 기능에 접근할 수 있습니다. Expo는 이러한 접근을 사용하기 쉬운 다양한 API를 통해 제공하고 있지만, 모든 네이티브 기능에 대해 API를 제공하는 것은 아닐 수도 있고 새로 추가된 기능에 대한 API 지원이 늦을 수도 있습니다.
 
-- **Freedom and Flexibility**: React Native provides developers with more freedom and flexibility. It allows for modifications or additions to the native code if necessary. Expo, while convenient, can be restrictive if specific native functionalities or customizations are needed.
+- **자유도 및 유연성**: React Native는 개발자에게 더 많은 자유와 유연성을 제공합니다. 필요한 경우 네이티브 코드를 수정하거나 추가할 수 있습니다. Expo는 편리하지만 특정 네이티브 기능이나 맞춤화가 필요한 경우 제한적일 수 있습니다.
 
-- **Deployment and Updates**: Expo supports fast previews through the Expo Go app and Over-The-Air (OTA) updates, simplifying app updates. React Native apps require manual updates and have a more complex app store deployment process.
+- **배포 및 업데이트**: Expo는 Expo Go 앱과 Over-The-Air(OTA) 업데이트를 지원하여 앱 업데이트를 단순화합니다. React Native 앱은 수동 업데이트가 필요하며 앱 스토어 배포 과정이 더 복잡합니다. (React Native에 Expo Updates 라이브러리를 이용하거나 MS Code Push를 사용해서 OTA 기능 개발이 가능하긴 합니다.)
 
-- **Community and Support**: React Native boasts a larger community and a wider range of support. Although Expo has an active community, it does not offer as many external library and integration options as React Native.
+- **커뮤니티 및 지원**: React Native는 더 큰 커뮤니티와 더 넓은 범위의 지원을 자랑합니다. Expo도 활발한 커뮤니티를 가지고 있지만 React Native와 비교했을 때는, 상대적으로 다양한 외부 라이브러리와 통합 옵션을 제공하지 않습니다.
 
-## Conclusion
+## 결론
 
-Choosing the right tool for your project depends on various factors. If you're looking to quickly prototype or lack native development experience, Expo might be the better choice. However, for more complex apps requiring greater customization and access to native features, React Native could be more suitable.
+프로젝트에 적합한 도구를 선택하는 것은 다양한 요소에 따라 달라집니다. 빠르게 프로토타입을 제작하고자 하거나 네이티브 개발 경험이 부족한 경우, Expo가 더 나은 선택일 수 있습니다. 그러나 더 많은 맞춤화와 네이티브 기능 접근이 필요한 복잡한 앱의 경우, React Native가 더 적합할 수 있습니다.
 
-Regardless of your choice, the important thing is to clearly understand your project goals and requirements. And remember, the development process is like a journey. It may be challenging at times, but it always offers opportunities to learn and grow. May your mobile app development journey be enjoyable and rewarding! 🚢 🏇🏻
+선택에 관계없이 중요한 것은 프로젝트 목표와 요구사항을 명확히 이해하는 것입니다. 두 옵션에 고민 중인신 분들에게 도움이 되었길 바랍니다! 🚢 🏇🏻

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Guide to Detecting Android Rooting for Developers
+title:  "개발자를 위한 안드로이드 루팅 탐지하기"
 date:   2024-02-14 08:53:00 +0900
 author: padawanjoy
 image:  '/images/posts/2024-02-14-guide-to-detecting-android-rooting-for-developers/01.png'
@@ -8,23 +8,23 @@ tags:   [android, detecting, rooting]
 tags_color: '#a1c648'
 featured: true
 ---
-Hello, mobile app developers! Following [last post on iOS jailbreak detection](https://padawanjoy.com/blog/guide-to-detecting-ios-jailbreaking-for-developers), this time we'll delve into how to detect rooting on Android devices in detail. Rooting provides users with deeper access to their Android device's operating system but comes with its share of security risks. As app developers, it's crucial for us to detect and respond to rooted devices to ensure user security.
+[지난 번 iOS 탈옥 감지에 대한 글](https://padawanjoy.com/blog/guide-to-detecting-ios-jailbreaking-for-developers)에 이어, 이번에는 안드로이드 기기에서 루팅을 탐지하는 방법에 대해 자세히 알아보겠습니다. 루팅은 사용자에게 안드로이드 기기의 운영 체제에 더 깊은 접근을 제공하지만, 보안 위험도 함께 동반합니다. 앱 개발자로서, 사용자의 보안을 보장하기 위해 루팅된 기기를 탐지하고 대응하는 것이 중요합니다.
 
-## What is Rooting?
+## 루팅이란?
 
-Rooting is the process of bypassing restrictions set by manufacturers or network operators on Android devices, allowing users deeper system access. This enables more extensive customization and the installation of apps that aren't normally accessible.
+루팅은 제조업체나 네트워크 운영자가 설정한 제한을 우회하여 안드로이드 기기에서 더 깊은 시스템 접근을 허용하는 과정입니다. 이를 통해 더 많은 사용자 정의 옵션과 일반적으로 접근할 수 없는 앱을 설치할 수 있게 됩니다.
 
-## Principles of Rooting Detection
+## 루팅 탐지 원리
 
-Detecting a rooted device primarily involves checking whether the device has deviated from a standard Android environment. Several methods can be employed, including:
+루팅된 기기를 탐지하는 것은 기본적으로 기기가 표준 안드로이드 환경에서 벗어났는지 여부를 확인하는 것을 포함합니다. 이를 위해 여러 방법이 사용될 수 있으며, 그 중에는:
 
-- **System Files and Directories Access:** Rooted devices typically have access to **`/system`** folders. If an app can access these folders, it's likely the device is rooted.
-- **SU (SuperUser) Binary Check:** Most rooting processes install an 'su' binary. Checking for the existence of this binary is a practical way to determine if a device is rooted.
-- **System Properties Inspection:** Certain system property values can only be changed on rooted devices. Examining these values can help detect rooting.
+- **시스템 파일 및 디렉토리 접근:** 루팅된 기기는 보통 **`/system`** 폴더에 접근할 수 있습니다. 앱이 이러한 폴더에 접근할 수 있다면, 기기가 루팅되었을 가능성이 높습니다.
+- **SU(SuperUser) 바이너리 검사:** 대부분의 루팅 과정은 'su' 바이너리를 설치합니다. 이 바이너리의 존재 여부를 확인하는 것은 기기가 루팅되었는지 결정하는 실용적인 방법입니다.
+- **시스템 속성 검사:** 특정 시스템 속성 값은 루팅된 기기에서만 변경될 수 있습니다. 이러한 값들을 검사하는 것은 루팅을 감지하는 데 도움이 될 수 있습니다.
 
-## Example Code
+## 예제 코드
 
-Here's a simple Java code snippet to detect rooting:
+루팅을 탐지하는 간단한 Java 코드 스니펫은 다음과 같습니다:
 
 ```java
 public boolean isRooted() {
@@ -51,18 +51,18 @@ private boolean checkSystemProperties() {
         String line = bufferedReader.readLine();
         if (line.equals("0")) return true;
     } catch (IOException e) {
-        // Handle exceptions
+        // 예외 처리
     }
     return false;
 }
 ```
 
-This code checks for the existence of the SU binary and system properties to determine if the device is rooted.
+이 코드는 SU 바이너리와 시스템 속성의 존재 여부를 확인하여 기기가 루팅되었는지 여부를 결정합니다.
 
-## The Importance of Continuous Response and Updates
+## 지속적인 대응 및 업데이트의 중요성
 
-New rooting methods are continually emerging, so one-time detection logic cannot cover all cases. It's vital to regularly deploy updates to address new rooting techniques, maintaining communication with the security community.
+새로운 루팅 방법이 지속적으로 등장하기 때문에, 한 번의 탐지 로직으로는 모든 경우를 커버할 수 없습니다. 새로운 루팅 기술에 대응하기 위해서는 앱을 정기적으로 업데이트하고, 보안 커뮤니티와의 소통을 유지하는 것이 중요합니다. 이를 통해 앱과 사용자 데이터의 보안을 강화할 수 있습니다.
 
-## Conclusion
+## 결론
 
-Rooting detection in Android app development is crucial for ensuring user security and protecting apps from malicious activities. I hope this post has provided valuable insights for all those interested in Android app development and security. As technology advances, the importance of security grows. To protect our apps and users, we must continually learn and adapt. Happy coding!
+안드로이드 앱 개발에서 루팅 탐지는 사용자의 보안을 보장하고 악의적인 활동으로부터 앱을 보호하는 데 중요한 역할을 합니다. 본 포스트가 안드로이드 앱 개발과 보안에 관심 있는 모든 분들에게 유익한 정보를 제공했기를 바랍니다.

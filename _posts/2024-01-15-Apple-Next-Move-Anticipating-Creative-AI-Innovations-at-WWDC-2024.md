@@ -1,29 +1,20 @@
 ---
 layout: post
-title: "Apple's Next Move: Anticipating Creative AI Innovations at WWDC 2024"
+title: "Apple WWDC 2024에서 기대되는 AI 혁신"
 date:   2024-01-15 19:03:00 +0900
 author: padawanjoy
 tags: [apple, wwdc-2024, wwdc, ai, apple-ai]
 ---
+이번 6월 WWDC 2024에서 Apple이 AI 기술을 소개할 것으로 보여지는데요. 이에 대한 기대감이 커지고 있습니다. 그동안 AI 경쟁에서 뒤쳐지고 있다는 평을 받았던 Apple이기에, WWDC에서의 발표는 AI 기술 경쟁에서 Apple이 어떤 위치와 자세를 가지고 있는지를 판단할 수 있는 중요한 지표가 될 것으로 예상됩니다.
 
-Excitement is building around the creative AI technology that Apple is set to unveil at WWDC 2024 this June. This announcement is expected to be a significant indicator of Apple's positioning in the AI technology race.
+Bloomberg에 따르면, Apple은 Pages와 Keynote를 포함한 핵심 앱에 자동 요약 및 완성 기능을 통합할 계획이라고 합니다. 또한, Apple Music은 재생 목록 생성을 자동화하는 AI 요소를 도입할 예정입니다. 이러한 변경 사항은 사용자 경험을 더 편리하고 직관적으로 만들 것으로 보입니다.
 
-## **Apple's AI Innovations: A Fresh Breeze in Pages and Keynote**
-According to Bloomberg, Apple plans to integrate automatic summarization and completion features into its core apps, including Pages and Keynote. Additionally, Apple Music is set to introduce AI elements for automating playlist creation. These changes promise to make user experiences more convenient and intuitive.
+개발자들이 좋아할 소식도 있네요. 
+보다 쉽고 효율적으로 앱을 만들 수 있도록 업데이트된 'Xcode'에 AI 생성 도구를 제공할 계획이라고 합니다.
 
-## **New Tools for Developers: The Updated 'Xcode'**
-Apple is planning to offer AI creation tools in the updated 'Xcode' for developers. This will enable developers to create apps more easily and efficiently.
+기존에 Apple의 AI 서비스하면 가장 먼저 떠오르는 건 바로 Siri죠. 
+Siri 역시 중요한 개편을 겪고 있습니다. Apple은 AI 비서의 기능을 향상시켜 사용자 경험을 더욱 개선할 계획입니다. Apple은 iPhone을 위한 생성형 AI 개발에 집중하고 있고 Siri와 생성형 AI 결합이 있을 것으로 보이는데요. 이 혁신은 사용자 경험에 변혁적인 변화를 가져오고 스마트폰 시장에 새로운 동력을 제공할 것으로 예상됩니다. Apple은 이러한 개발을 통해 AI 분야에서의 경쟁력을 강화하고 사용자에게 더 나은 서비스를 제공하고자 합니다.보다 똑똑하게, 정말 스마트한 보조 도구로써 Siri를 사용하게 될 날이 기다려 집니다.
 
-## **A Major Overhaul for Siri: Stepping into New Possibilities**
-Siri is also undergoing a significant revamp. Apple plans to enhance the functions of its AI assistant to improve user experiences further, indicating an increasing role for AI in our daily lives.
+AppleCare 서비스에도 AI 기술이 도입될 수 있다는 예측도 있습니다. AppleCare 부서는 AI 기반의 문제 해결 시스템을 도입할 예정입니다. 이러한 조치는 고객 서비스의 효율성과 정확성을 크게 향상시킬 것으로 기대됩니다. Apple은 이러한 AI 도구를 통해 고객 지원을 더 개인화되고 효율적으로 만들고자 합니다.
 
-## **AI-Based Problem Solving in the AppleCare Department**
-The AppleCare department is set to adopt an AI-based problem-solving system. This initiative is expected to significantly improve the efficiency and accuracy of customer service. Apple aims to make customer support more personalized and efficient through these AI tools.
-
-## **The Impact of Siri Department’s Merger**
-Meanwhile, Apple has decided to close its AI team responsible for Siri and merge it with another team. This move could be interpreted as a strategic realignment in Apple's AI technology competition. Apple aims to focus more on AI technology development and strengthen its competitiveness through this restructuring.
-
-## **The Possibility of a 'Second Siri'**
-Lastly, Apple is focusing on developing generative AI for the iPhone. This innovation is expected to bring transformative changes to user experiences and provide new momentum in the smartphone market. Apple aims to enhance its competitiveness in AI and offer better services to users through these developments.
-
-These diverse changes and innovations suggest that Apple is set to open a new chapter in the field of AI. There is much interest and anticipation for the new AI technologies Apple will reveal at WWDC 2024.
+이렇게 AI에 많은 역량과 기술을 집중시키고 있는 Apple인데요. 그래서 Apple은 Siri를 담당하는 AI 팀을 폐쇄하고 다른 팀과 합병하기로 결정했습니다. 이 움직임은 Apple의 AI 기술 경쟁에서 전략적 재정비로 해석될 수 있습니다. Apple은 이러한 구조 조정을 통해 AI 기술 개발에 더 집중하고 경쟁력을 강화하려고 하는 것 같습니다. WWDC 2024에서 Apple이 공개할 새로운 AI 기술에 대해 관심과 기대가 큽니다. 벌써부터 6월이 기대되네요.

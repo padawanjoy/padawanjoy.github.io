@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Using NVM for Easy Node.js Version Control on Mac
+title:  "Mac에서 NVM을 사용한 쉬운 Node.js 버전 관리"
 date:   2024-02-04 21:42:00 +0900
 author: padawanjoy
 image:  '/images/posts/2024-02-04-using-nvm-for-easy-nodejs-version-control-on-mac/01.png'
@@ -8,68 +8,67 @@ tags:   [nvm, node-js]
 # tags_color: '#6b96df'
 featured: false
 ---
-If you're a developer working with Node.js, you're likely familiar with the challenge of managing different versions of Node.js across various projects. Enter Node Version Manager, or NVM, which might as well be considered a magic wand for your development environment. NVM allows you to easily install and manage multiple versions of Node.js. In this article, we'll explore the basics of NVM, its benefits, and how to set it up and use it on Mac OS with a zsh shell. For reference, this guide is based on the Mac OS platform.
+Node.js로 작업하는 개발자라면 다양한 프로젝트에서 Node.js의 여러 버전을 관리하는게 필요할텐데요. 이럴때 Node Version Manager (NVM)을 사용하면 여러 버전의 Node.js를 쉽게 설치하고 관리할 수 있습니다. 이 글에서는 NVM의 기본 사항, 장점, 그리고 사용하는 방법에 대해 살펴보겠습니다. 이 포스트는 Mac OS 플랫폼을 기준으로 작성되었습니다.
 
-## What is NVM?
+## NVM이란?
 
-NVM stands for Node Version Manager, a command-line tool that enables you to manage multiple installations of Node.js. It allows you to switch between versions seamlessly and use different versions of Node.js for different projects. By isolating each Node.js version, NVM ensures that you can maintain multiple versions on the same system without any conflicts.
+NVM은 Node Version Manager의 약자로, 여러 버전의 Node.js 설치하고 관리할 수 있게 해주는 도구입니다. 이를 사용하면  Node.js 버전 간, 원활한 전환을 할 수 있고, 다양한 프로젝트에 대해 다른 버전의 Node.js를 사용할 수 있습니다. 각 Node.js 버전을 독립적으로 분리함으로써, NVM은 동일한 시스템에서 여러 버전을 충돌 없이 유지할 수 있게 해줍니다.
 
-## Benefits of Using NVM
+## NVM 사용의 이점
 
-Using NVM comes with several advantages over not using it:
+NVM을 사용하면 여러 가지 이점이 있습니다:
 
+**1. 버전 관리의 용이성**: NVM을 사용하면 몇 가지 간단한 명령어로 다양한 Node.js 버전을 설치하고 전환할 수 있습니다. 이는 다른 Node.js 버전을 요구하는 여러 개발 프로젝트에서 작업할 때 특히 유용합니다.
 
-**1. Ease of Version Management**: With NVM, you can install and switch between different Node.js versions with a few simple commands. This is especially useful when working on multiple development projects that require different Node.js versions.
+**2. 프로젝트별 버전 설정**: **`.nvmrc`** 파일을 통해 각 프로젝트에 사용할 Node.js 버전을 지정할 수 있습니다. 이는 팀원들 사이의 개발 환경을 동기화하는 데 도움이 됩니다.
 
-**2. Project-specific Version Setting**: You can specify the version of Node.js to use for each project through a **`.nvmrc`** file. This helps to synchronize the development environment among team members.
+**3. 설치 및 업데이트 간소화**: NVM을 통한 Node.js 설치는 간단하며, 새로운 버전이 출시될 때마다 업데이트하는 것도 마찬가지로 쉽습니다.
 
-**3. Simplified Installation and Updates**: Installing Node.js via NVM is straightforward, and updating to new versions as they are released is just as easy.
+## Mac OS에서 NVM 설치 및 사용하기
 
-## Installing and Using NVM on Mac OS
+### 설치
 
-### Installation
-
-Installing NVM on Mac OS is as simple as running a single command. Open your zsh terminal and enter the following:
+Mac OS에서 NVM을 설치하는 것은 아주 간단한데요. zsh 터미널을 열고 다음을 입력하면 됩니다:
 
 ```sh
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 ```
 
-This command downloads and executes the NVM installation script. After the installation, your **`~/.zshrc`** file should include the following environment setup:
+이 명령어는 NVM 설치 스크립트를 다운로드하여 실행하게 됩니다. 설치 후, **`~/.zshrc`** 파일에 다음 환경 설정이 포함되어야 합니다:
 
 ```sh
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 ```
 
-### Installing Node.js Versions
+### Node.js 버전 설치하기
 
-Installing a specific version of Node.js with NVM is straightforward. For example, to install version 14.17.0 of Node.js, use the following command:
+NVM을 사용하여 특정 버전의 Node.js를 설치하는 방법을 알아보겠습니다. 예를 들어, Node.js 버전 14.17.0을 설치하려면 다음 명령어를 사용하세요:
 
 ```sh
 nvm install 14.17.0
 ```
 
-### Listing and Switching Versions
+### 버전 목록 확인하고 전환하기 
 
-To see all installed Node.js versions, enter:
+설치되어있는 모든 Node.js 버전을 보려면 다음을 입력하세요:
 
 ```sh
 nvm ls
 ```
 
-To switch to a specific version, simply run:
+특정 버전으로 전환하려면 다음과 같이 실행합니다:
 
 ```sh
 nvm use 14.17.0
 ```
 
-### Setting a Project-specific Node.js Version
+### 프로젝트별 Node.js 버전 설정하기
 
-Create a **`.nvmrc`** file in your project directory and specify the desired Node.js version. For instance, to use version **`14.17.0`**, write this version number in the **`.nvmrc`** file. Then, running the following command in your project directory will automatically switch to that version:
+프로젝트 디렉토리에 **`.nvmrc`** 파일을 생성하고 원하는 Node.js 버전을 지정하세요. 예를 들어, 버전 **`14.17.0`**을 사용하려면 해당 버전 번호를 **`.nvmrc`** 파일에 작성하세요. 그런 다음 프로젝트 디렉토리에서 다음 명령어를 실행하면 자동으로 해당 버전으로 전환됩니다:
 
 ```sh
 nvm use
 ```
 
-Development often requires managing different Node.js versions due to project environments or other reasons. This article aims to assist in those situations. We hope that managing your Node.js versions becomes more straightforward with NVM, contributing to a more efficient development setup. 🧑🏻‍💻
+프로젝트 환경이나 기타 이유로 인해 다양한 Node.js 버전을 관리해야 하는 경우가 자주 있습니다. 이 포스트가 그런 상황에서 도움이 되기를 바랍니다. NVM으로 Node.js 버전 관리가 더 효율적이고 쉽게 개선되기를 바라면서 다음 포스트에서 봐요! 🧑🏻‍💻

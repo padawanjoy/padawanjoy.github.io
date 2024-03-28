@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  How to Compress Files and Folders into a dmg File on Mac OS, and a Comparison Between dmg and zip Files
+title:  "Mac OS에서 dmg 파일로 압축하는 방법, 그리고 dmg와 zip의 비교"
 date:   2024-02-01 19:12:00 +0900
 author: padawanjoy
 image:  '/images/posts/2024-02-01-how-to-compress-files-and-folders-into-a-dmg-file-on-mac-os/01.png'
@@ -8,47 +8,45 @@ tags:   [mac, mac-os, dmg, zip]
 # tags_color: '#6b96df'
 featured: false
 ---
-Hello, everyone! Today, we're going to delve into how to compress folders into DMG files on Mac OS, and also look at the differences between DMG and ZIP files. This is really handy information for Mac users, so let's get into the details. Please note, this is based on the Sonoma 14.1.1 version.
+오늘은 Mac OS에서 폴더를 DMG 파일로 압축하는 방법과 DMG 파일과 ZIP 파일의 차이점에 대해 알아보겠습니다. 알아두면 Mac 사용자에게 유용한 정보니까 꼭 봐주세요. 참고로 이 내용은 Mac OS Sonoma 14.1.1 버전을 기준으로 합니다.
 
-## How to Compress Folders into DMG Files on Mac OS
-1. **Accessing Disk Utility**: Open `Applications` → `Disk Utility` from Finder, or you can use Spotlight Search by pressing `Command (⌘) + Spacebar` and typing 'Disk Utility', then pressing `Enter` to launch it.
+## Mac OS에서 DMG 파일로 압축하는 방법
+1. **디스크 유틸리티 접근**: Finder에서 `응용 프로그램` → `디스크 유틸리티`를 열거나, `Command (⌘) + Spacebar`를 눌러 Spotlight 검색을 사용해 '디스크 유틸리티'를 입력하고 `Enter`를 눌러 실행합니다.
 
-2. **Initiating New Image Creation**: In Disk Utility, go to `File` → `New Image` → `Image from Folder`.
+2. **새 이미지 생성 시작**: 디스크 유틸리티에서 `파일` → `새 이미지` → `폴더에서 이미지`를 선택합니다.
 
-3. **Choosing the Folder**: Select the folder you wish to compress and click `Open`.
+3. **폴더 선택**: 압축하고자 하는 폴더를 선택하고 `열기`를 클릭합니다.
 
-4. **Setting Image Options**:
-   - **Specify Save Location and File Name**: Decide where to save the compressed file and what to name it.
-   - **Encryption for Security**: If security is a concern, consider setting up encryption. Remember, access to the DMG file will require the password you set.
-   - **Image Format Selection**: Choose from 'read/write', 'read-only', or 'compressed', depending on your purpose.
-    ![Image Format Selection]({{site.baseurl}}/images/posts/2024-02-01-how-to-compress-files-and-folders-into-a-dmg-file-on-mac-os/02.png)
+4. **이미지 옵션 설정**:
+   - **저장 위치 및 파일 이름 지정**: 압축 파일을 저장할 위치와 이름을 결정합니다.
+   - **보안을 위한 암호화**: 보안이 중요한 파일들이라면, 암호화 옵션을 선택하는게 좋습니다. 암호화를 적용한 DMG 파일에 접근하려면 설정한 비밀번호가 필요합니다.
+   - **이미지 포맷 선택**: '읽기/쓰기', '읽기 전용', '압축' 중에서 목적에 맞는 옵션을 선택합니다.
+    ![이미지 포맷 선택]({{site.baseurl}}/images/posts/2024-02-01-how-to-compress-files-and-folders-into-a-dmg-file-on-mac-os/02.png)
    
 
-5. **Starting DMG Creation**: Once all settings are in place, click the `Create` button to begin generating the DMG file.
+5. **DMG 생성 시작**: 모든 설정이 완료되면 `생성` 버튼을 클릭하여 DMG 파일 생성을 시작합니다.
 
-## DMG vs. ZIP Files: Which to Choose?
+## DMG vs. ZIP 파일: 어떤 것을 선택해야 할까요?
 
 ![DMG vs. ZIP]({{site.baseurl}}/images/posts/2024-02-01-how-to-compress-files-and-folders-into-a-dmg-file-on-mac-os/03.png)
 *DMG vs. ZIP*
 
-### Advantages of DMG Files:
-- **Enhanced Security**: The option to encrypt files offers increased security, especially useful when handling sensitive data.
-- **Flexible File Management**: Read/Write mode in DMG files allows adding or removing files post-mounting.
-- **Optimized for Mac OS**: DMG files are specifically designed for Mac OS, ensuring seamless integration with the system.
-- **Ideal for System Restoration and Backup**: As disk images, DMG files are well-suited for system backups and restoration.
+### DMG 파일의 장점:
+- **향상된 보안**: 파일 암호화 옵션을 통해 보안을 강화할 수 있으며, 특히 민감한 데이터를 다룰 때 유용합니다.
+- **유연한 파일 관리**: DMG 파일의 '읽기/쓰기' 모드는 마운트 후에도 파일을 추가하거나 제거할 수 있습니다.
+- **Mac OS에 최적화**: DMG 파일은 Mac OS를 위해 특별히 설계되었기 때문에 시스템과 궁합이 좋습니다.
+- **시스템 복원 및 백업에 이상적**: 디스크 이미지로서 DMG 파일은 시스템 백업 및 복원에 적합합니다.
 
-### Advantages of ZIP Files:
-- **High Compatibility**: ZIP files are supported across various operating systems, making them ideal for sharing files with non-Mac users.
-- **Ease of Use**: The process to compress and decompress files is straightforward and user-friendly.
-- **Space Efficiency**: ZIP files effectively reduce the size of large files, saving storage space.
-- **Email Transfer Friendliness**: Most email services easily handle attachments in ZIP file format.
+### ZIP 파일의 장점:
+- **높은 호환성**: ZIP 파일은 다양한 운영 체제에서 지원되므로, Mac 사용자가 아닌 사람과 파일을 공유하기에 이상적입니다.
+- **사용 용이성**: 파일 압축 및 압축 해제 과정이 직관적이고 사용자 친화적입니다.
+- **공간 효율성**: ZIP 파일은 큰 파일의 크기를 효과적으로 줄여 저장 공간을 절약합니다.
+- **이메일 전송 친화성**: 대부분의 이메일 서비스는 ZIP 파일 형식의 첨부 파일과 호환성이 좋습니다.
 
-### Criteria for Selection:
-- **When Security is a Priority**: If you need to encrypt and protect important data, choosing a DMG file is advisable.
-- **For Cross-Platform Compatibility**: If you need to share files with users on different operating systems, ZIP files are a better choice.
-- **Flexibility in File Management**: If you frequently need to modify or update files, a DMG file in Read/Write format is beneficial.
-- **For Simplicity and Convenience**: If you prefer a straightforward compression and decompression process, go with ZIP files.
+### 선택 기준:
+- **보안이 우선순위일 때**: 중요한 데이터를 암호화하여 보호해야 한다면 DMG 파일을 선택하는 것이 좋습니다.
+- **크로스 플랫폼 호환성이 필요할 때**: 다른 운영 체제의 사용자와 파일을 공유해야 한다면 ZIP 파일이 더 나은 선택입니다.
+- **파일 관리의 유연성이 필요할 때**: 자주 파일을 수정하거나 업데이트해야 한다면 '읽기/쓰기' 형식의 DMG 파일이 좋습니다.
+- **단순성과 편리함을 선호할 때**: 압축 및 압축 해제 과정이 간단한 ZIP 파일을 선택하세요.
 
-Depending on your needs and situations, you can choose the most suitable method. This information should be particularly useful for Mac users in optimizing their file management. 
-
-That's all for our exploration of folder compression methods on Mac OS Sonoma 14.1.1, and the comparison between DMG and ZIP files. I hope this will make your Mac usage more convenient, and I'll be back with more useful information next time. Thank you! 😊👋🏻
+여러분의 필요와 상황에 따라 가장 적합한 방법을 선택할 수 있습니다. 이 정보는 Mac 사용자에게, 특히 파일 관리를 최적화하기 위해 고민하는 분들에게 도움이 되었으면 좋겠네요. 😊👋🏻

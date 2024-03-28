@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Understanding Scope in JavaScript
+title:  "JavaScript의 Scope에 대해 이해하기"
 date:   2024-02-05 16:40:00 +0900
 author: padawanjoy
 image:  '/images/posts/2024-02-05-understanding-scope-in-javascript/01.png'
@@ -8,11 +8,11 @@ tags:   [javascript, scope]
 tags_color: '#db9e00'
 featured: true
 ---
-Scope in programming languages defines the range in which variables, functions, and other identifiers are accessible. In JavaScript, scope determines how and where variables can be referenced and accessed throughout your code. This post delves into the intricacies of JavaScript's scope, explaining different types such as global scope, local scope, function scope, and block scope, all accompanied by illustrative example codes.
+프로그래밍 언어에서 Scope는 변수, 함수, 그리고 다른 식별자들이 접근 가능한 범위를 의미합니다. JavaScript에서 Scope는 코드 전반에서 변수를 어떻게 그리고 어디에서 참조하고 접근할 수 있는지를 결정하는데요. 이 글에서는 JavaScript의 Scope 복잡성을 설명하고, 전역 Scope, 지역 Scope, 함수 Scope, 블록 Scope 등 다양한 유형에 대해 예시 코드와 함께 알아보겠습니다.
 
-## Global Scope
+## 전역 Scope
 
-Variables declared in the global scope are accessible from anywhere in the code. These variables are valid throughout the entire script and can be accessed from within any function.
+전역 Scope에서 선언된 변수는 코드 어디에서나 접근할 수 있습니다. 이 변수들은 전체 스크립트에서 유효하며 함수 내부에서도 접근할 수 있습니다.
 
 ```javascript
 var globalVar = 'This is a global variable';
@@ -25,11 +25,11 @@ checkScope();
 console.log(globalVar); // Outputs: 'This is a global variable'
 ```
 
-Using global variables should be minimized to avoid unexpected conflicts if the same variable name is declared elsewhere in the program.
+다만 전역 Scope의 변수는 같은 이름을 가지는 변수가 프로그램 내의 다른 곳에서 선언될 경우 예상치 못한 충돌을 발생시킬 수가 있기 때문에 이를 피하기 위해 최소한으로 사용하는 것이 좋습니다.
 
-## Local Scope
+## 지역 Scope
 
-Local scope refers to variables that are only valid within a specific section, such as within a function. These variables cannot be accessed from outside the function.
+지역 Scope는 특정 섹션 내에서만 유효한 변수를 의미합니다. 예를 들어, 함수 내부에서 선언된 변수들이 있습니다. 이 변수들은 함수 외부에서는 접근할 수 없습니다.
 
 ```javascript
 function showLocalScope() {
@@ -38,16 +38,16 @@ function showLocalScope() {
 }
 
 showLocalScope();
-// console.log(localVar); // Throws ReferenceError: localVar is not defined
+// console.log(localVar); // ReferenceError: localVar is not defined 오류 발생
 ```
 
-Local variables are accessible only within the function they are declared in and disappear once the function execution finishes.
+지역 변수는 선언된 함수 내에서만 접근할 수 있으며, 함수 실행이 끝나면 변수의 생명도 사라집니다.
 
-Let's delve deeper into Function Scope and Block Scope, which are commonly mentioned examples of Local Scope in JavaScript.
+JavaScript에서 흔히 언급되는 지역 Scope에는 함수 Scope와 블록 Scope가 있는데요. 이 예시들을 더 깊이 들여다봅시다.
 
-### Function Scope
+### 함수 Scope
 
-In JavaScript, function scope means that variables declared inside a function are only accessible within that function. Variables declared with the **`var`** keyword have function scope.
+JavaScript에서 함수 Scope는 함수 내부에서 선언된 변수가 해당 함수 내에서만 접근 가능함을 의미합니다. 아래 예시에서 **`var`** 키워드로 선언된 변수는 함수 Scope를 가집니다.
 
 ```javascript
 function functionScopeExample() {
@@ -56,14 +56,14 @@ function functionScopeExample() {
 }
 
 functionScopeExample();
-// console.log(functionScoped); // Throws ReferenceError: functionScoped is not defined
+// console.log(functionScoped); // ReferenceError: functionScoped is not defined 오류 발생
 ```
 
-Function scope restricts variable access to where it's needed, making the code safer and easier to manage.
+함수 Scope는 필요한 곳에서만 변수에 접근할 수 있도록 제한하기 때문에 코드를 더 안전하고 관리하기 쉽게 만듭니다.
 
-### Block Scope
+### 블록 Scope
 
-Introduced with ES6, **`let`** and **`const`** provide block scope. This means variables declared within any block (a section enclosed by **`{}`** such as in conditions, loops, etc.) are only accessible within that block.
+ES6와 함께 도입된 **`let`**과 **`const`**는 블록 Scope를 제공합니다. 이는 조건문, 루프 등 **`{}`**로 둘러싸인 모든 블록 내에서 선언된 변수가 해당 블록 내에서만 접근 가능함을 의미합니다.
 
 ```javascript
 function blockScopeExample() {
@@ -72,17 +72,17 @@ function blockScopeExample() {
     console.log(blockScoped); // Outputs: 'Variable within block scope'
   }
 
-  // console.log(blockScoped); // Throws ReferenceError: blockScoped is not defined
+  // console.log(blockScoped); // ReferenceError: blockScoped is not defined 오류 발생
 }
 
 blockScopeExample();
 ```
 
-Using block scope allows for finer control over where variables are valid, reducing complexity and preventing errors in your programs.
+블록 Scope를 사용하면 변수가 유효한 곳을 더 세밀하게 제어할 수 있어, 프로그램의 복잡성을 줄이고 오류를 방지할 수 있습니다.
 
-## Scope Chain
+## Scope 체인
 
-In JavaScript, when functions are nested, the inner functions have access to the variables of their outer functions. This is due to the scope chain. If a variable is not found within the inner function's scope, JavaScript looks for it in the outer scope, continuing this process up to the global scope.
+JavaScript에서 함수가 중첩될 때, 내부 함수는 외부 함수의 변수에 접근할 수 있습니다. 이는 Scope 체인 때문입니다. 내부 함수의 Scope 내에서 변수를 찾을 수 없는 경우, JavaScript는 외부 Scope에서 변수를 찾아나가고 그래도 없으면 그 상위의 외부 Scope에서 변수를 찾고.. 이렇게 마치 체인처럼 Scope를 확장하며 찾아나가기 때문에 Scope 체인이라고 합니다. 이렇게 찾는 과정은 전역 Scope까지 계속됩니다.
 
 ```javascript
 var outerVar = 'Outer variable';
@@ -101,8 +101,8 @@ function outerFunction() {
 outerFunction();
 ```
 
-The scope chain provides a mechanism for moving outward through successive scopes to search for variables, playing a crucial role in enhancing code readability and maintainability.
+Scope 체인은 변수를 검색하기 위해 외부 Scope로 순차적으로 이동하는 메커니즘을 제공하며, 코드의 가독성과 유지보수성을 향상시키는 데 중요한 역할을 합니다.
 
-## Conclusion
+## 결론
 
-Understanding scope in JavaScript is essential for managing the visibility and lifecycle of variables. Proper use of scope helps avoid code conflicts, improve the structure of your programs, and reduce errors. I hope this guide aids in comprehending and applying scope effectively in your JavaScript coding endeavors.
+JavaScript에서 Scope를 이해하는 것은 변수의 가시성과 수명을 관리하는 데 필수적입니다. Scope의 적절한 사용은 코드 충돌을 방지하고 프로그램의 구조를 개선하며 오류를 줄이는 데 도움이 됩니다. JavaScript 코딩을 하며 Scope를 이해하고 적용하는 데 도움이 되기를 바랍니다.

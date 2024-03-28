@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Basic DOM Manipulation (1): An Introduction to Interacting with Web Pages"
+title:  "기본 DOM 조작 (1): 웹 페이지와 상호작용하기"
 date:   2024-03-11 13:24:00 +0900
 author: padawanjoy
 image:  '/images/posts/2024-03-11-basic-dom-manipulation-1-an-introduction-to-interacting-with-web-pages/01.webp'
@@ -8,24 +8,24 @@ tags:   [javascript, js-dev-course, dom]
 tags_color: '#db9e00'
 featured: true
 ---
-In our JavaScript learning journey, interacting with web pages is a crucial part. In this post, we will introduce the basic concepts of DOM (Document Object Model) and how it enables interaction with web pages.
+JavaScript를 이용하면 웹 페이지와 상호작용을 할 수 있습니다. 이 글에서는 DOM(Document Object Model)의 기본 개념과 이를 통해 웹 페이지와 어떻게 상호작용하지, 그 방법을 살펴보려 합니다.
 
-## Table of Contents
-1. [What is the DOM?](#what-is-the-dom)
-2. [DOM Tree Structure](#dom-tree-structure)
-3. [Selecting Elements](#selecting-elements)
-4. [Manipulating Element Attributes and Content](#manipulating-element-attributes-and-content)
-5. [Practice: Simple DOM Manipulation](#practice-simple-dom-manipulation)
-6. [Conclusion and Preview of the Next Post](#conclusion-and-preview-of-the-next-post)
+## 목차
+1. [DOM이란 무엇인가?](#dom이란-무엇인가)
+2. [DOM 트리 구조](#dom-트리-구조)
+3. [요소 선택하기](#요소-선택하기)
+4. [요소 속성 및 내용 조작하기](#요소-속성-및-내용-조작하기)
+5. [실습: 간단한 DOM 조작](#실습-간단한-dom-조작)
+6. [결론 및 다음 글 미리보기](#결론-및-다음-글-미리보기)
 
-## What is the DOM?
-The DOM represents the structure of web pages as a model, allowing JavaScript to manipulate the page's content, structure, and styles. When a web page is loaded in the browser, it parses the HTML and creates the DOM tree.
+## DOM이란 무엇인가?
+DOM은 웹 페이지의 구조를 모델로 나타내어 JavaScript가 페이지의 내용, 구조, 스타일을 조작할 수 있게 합니다. 웹 페이지가 브라우저에 로드될 때, HTML을 파싱하고 DOM 트리를 생성합니다.
 
-## DOM Tree Structure
-The DOM represents the hierarchical structure of documents; all elements, attributes, and text are nodes. For example, in the DOM tree, the **`<body>`** tag would be a parent node, and a **`<p>`** tag inside it would be a child node.
+## DOM 트리 구조
+DOM은 문서의 계층 구조를 나타냅니다. 모든 요소, 속성, 텍스트는 노드입니다. 예를 들어, DOM 트리에서 **`<body>`** 태그는 부모 노드가 되고, 그 안의 **`<p>`** 태그는 자식 노드가 됩니다.
 
-## Selecting Elements
-The first step in DOM manipulation is selecting the HTML element you want to manipulate. JavaScript provides methods like **`document.getElementById()`**, **`document.getElementsByClassName()`**, and **`document.getElementsByTagName()`**:
+## 요소 선택하기
+DOM 조작의 첫 단계는 조작하고자 하는 HTML 요소를 선택하는 것입니다. JavaScript는 **`document.getElementById()`**, **`document.getElementsByClassName()`**, **`document.getElementsByTagName()`** 등의 메소드를 제공합니다:
 
 ```javascript
 let elementById = document.getElementById('example');
@@ -33,8 +33,8 @@ let elementsByClassName = document.getElementsByClassName('example-class');
 let elementsByTagName = document.getElementsByTagName('p');
 ```
 
-## Manipulating Element Attributes and Content
-Once you've selected an element, you can use JavaScript to change its attributes or content. For instance, to change the content of an element, you can use the **`textContent`** or **`innerHTML`** properties:
+## 요소 속성 및 내용 조작하기
+요소를 선택한 후에는 JavaScript를 사용하여 속성이나 내용을 변경할 수 있습니다. 예를 들어, 요소의 내용을 변경하려면 **`textContent`** 또는 **`innerHTML`** 속성을 사용할 수 있습니다:
 
 ```javascript
 let myElement = document.getElementById('myElement');
@@ -43,8 +43,8 @@ myElement.textContent = "New content";
 myElement.innerHTML = "<strong>New content</strong>";
 ```
 
-## Practice: Simple DOM Manipulation
-Let’s practice by selecting an element from a simple web page and changing its content:
+## 실습: 간단한 DOM 조작
+간단한 웹 페이지에서 요소를 선택하고 내용을 변경하는 것을 연습해 봅시다:
 
 ```html
 <div id="demo">Change this content.</div>
@@ -52,8 +52,8 @@ Let’s practice by selecting an element from a simple web page and changing its
 
 ```javascript
 let demoElement = document.getElementById('demo');
-demoElement.textContent = "Changed through DOM manipulation!";
+demoElement.textContent = "DOM 조작을 통해 변경됨!";
 ```
 
-## Conclusion and Preview of the Next Post
-Today, we learned the basics of the DOM and how to select and manipulate web page elements. This knowledge is essential for making web pages dynamic. In the next post, 'Basic DOM Manipulation (2): Manipulating Web Page Elements with JavaScript', we will explore how to make web pages more dynamic using JavaScript. Stay tuned!
+## 결론 및 다음 글 미리보기
+DOM의 기본과 웹 페이지 요소를 선택하고 조작하는 방법을 배웠습니다. 이 지식은 웹 페이지를 동적으로 만드는 데 아주 중요한 내용입니다. 다음 글에서는 '기본 DOM 조작 (2): JavaScript로 웹 페이지 요소 조작하기'를 탐구할 예정입니다. 계속 주목해 주세요!

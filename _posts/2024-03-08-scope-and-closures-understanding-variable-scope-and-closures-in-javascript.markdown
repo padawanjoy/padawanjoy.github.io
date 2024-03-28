@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Scope and Closures: Understanding Variable Scope and Closures in JavaScript"
+title:  "스코프와 클로저: JavaScript에서 변수 스코프와 클로저 이해하기"
 date:   2024-03-08 09:36:00 +0900
 author: padawanjoy
 image:  '/images/posts/2024-03-08-scope-and-closures-understanding-variable-scope-and-closures-in-javascript/01.webp'
@@ -8,40 +8,40 @@ tags:   [javascript, js-dev-course, scope, closures]
 tags_color: '#db9e00'
 featured: true
 ---
-Welcome to an integral part of our JavaScript learning journey: 'Scope and Closures'. These concepts are pivotal in understanding how JavaScript operates under the hood. Today's post will delve deep into these subjects and shed light on how they influence the behavior of variables in JavaScript.
+이번에는 '스코프와 클로저'에 대해 알아보겠습니다. 이 개념들은 JavaScript의 내부 동작을 이해하는 데 중요하며, 변수가 어떻게 동작하는지에 큰 영향을 미칩니다. 오늘의 글에서는 이 주제를 탐구하고, JavaScript에서 변수의 동작에 미치는 영향을 살펴보죠.
 
-## Table of Contents
-1. [What is Scope?](#what-is-scope)
-2. [Global vs. Local Scope](#global-vs-local-scope)
-3. [What are Closures?](#what-are-closures)
-4. [Examples of Closures](#examples-of-closures)
-5. [Practice: Protecting Private Information with Closures](#practice-protecting-private-information-with-closures)
-6. [Conclusion and Preview of the Next Post](#conclusion-and-preview-of-the-next-post)
+## 목차
+1. [스코프란 무엇인가?](#스코프란-무엇인가)
+2. [전역 스코프 vs 지역 스코프](#전역-스코프-vs-지역-스코프)
+3. [클로저란 무엇인가?](#클로저란-무엇인가)
+4. [클로저의 예시](#클로저의-예시)
+5. [실습: 클로저로 개인 정보 보호하기](#실습-클로저로-개인-정보-보호하기)
+6. [결론 및 다음 포스트 예고](#결론-및-다음-포스트-예고)
 
-## What is Scope?
-Scope refers to the accessibility of variables in different parts of your code. In JavaScript, there are 'global scopes' where variables are accessible from anywhere in the code, and 'local scopes' where variables can only be accessed within a specific function.
+## 스코프(Scope)란 무엇인가?
+스코프는 코드의 다른 부분에서 변수에 접근할 수 있는 범위를 나타냅니다. JavaScript에는 '전역 스코프'와 '지역 스코프'가 있으며, 이는 변수가 어디서 접근 가능한지를 결정합니다.
 
-## Global vs. Local Scope
-Variables declared in the global scope are accessible from any part of the code. However, variables declared in a local scope, such as within a function, are only accessible within that function. For example:
+## 전역 스코프 vs 지역 스코프
+전역 스코프에 선언된 변수는 어디서든 접근할 수 있습니다. 반면, 함수 내부와 같은 지역 스코프에 선언된 변수는 해당 함수 내에서만 접근 가능합니다.
 
 ```javascript
-let globalVar = "This is a global variable";
+let globalVar = "이것은 전역 변수입니다";
 
 function myFunction() {
-  let localVar = "This is a local variable";
-  console.log(globalVar); // Accessible
-  console.log(localVar);  // Also accessible
+  let localVar = "이것은 지역 변수입니다";
+  console.log(globalVar); // 접근 가능
+  console.log(localVar);  // 접근 가능
 }
 
 myFunction();
-console.log(localVar);  // Error: localVar is not defined outside of myFunction
+console.log(localVar);  // 에러: myFunction 바깥에서는 localVar가 정의되지 않음
 ```
 
-## What are Closures?
-A closure is a feature where an inner function has access to the outer (enclosing) function’s variables. This allows for the inner function to remember the environment in which it was created, even after the outer function has completed execution.
+## 클로저(Closures)란 무엇인가?
+클로저는 내부 함수가 외부 함수의 변수에 접근할 수 있는 기능입니다. 클로저를 통해 내부 함수는 외부 함수의 실행이 끝난 후에도 해당 함수의 변수에 접근할 수 있습니다.
 
-## Examples of Closures
-Closures are commonly used for data encapsulation and creating private variables. Here’s an example:
+## 클로저의 예시
+클로저는 데이터 캡슐화와 비공개 변수를 생성하는 데 사용됩니다.
 
 ```javascript
 function makeCounter() {
@@ -52,12 +52,12 @@ function makeCounter() {
 }
 
 let counter = makeCounter();
-console.log(counter());  // Outputs 0
-console.log(counter());  // Outputs 1
+console.log(counter());  // 출력: 0
+console.log(counter());  // 출력: 1
 ```
 
-## Practice: Protecting Private Information with Closures
-Let's practice using closures by writing code that protects private information using closures:
+## 실습: 클로저로 개인 정보 보호하기
+클로저를 사용하여 개인 정보를 보호하는 코드를 작성해 봅시다.
 
 ```javascript
 function createPerson(name) {
@@ -69,8 +69,8 @@ function createPerson(name) {
 }
 
 let person = createPerson("John");
-console.log(person.getName());  // Outputs "John"
+console.log(person.getName());  // 출력 "John"
 ```
 
-## Conclusion and Preview of the Next Post
-In this post, we covered the crucial concepts of scope and closures in JavaScript. Although these topics can be challenging to grasp, they are essential for understanding how JavaScript works. In our next post, we will explore 'Basic Objects: Structuring Data with Objects in JavaScript.' Stay tuned!
+## 결론 및 다음 포스트 예고
+이 글에서는 JavaScript에서 스코프와 클로저의 중요한 개념을 다뤘습니다. 이 주제들을 이해하면 JavaScript의 작동 방식을 이해하는 데 큰 도움이 됩니다. 다음 포스트에서는 '기본 객체: JavaScript에서 객체로 데이터 구조화하기'를 알아볼 예정입니다. 다음 글에서 봬요!

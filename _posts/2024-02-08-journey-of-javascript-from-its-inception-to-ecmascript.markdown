@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Journey of JavaScript: From Its Inception to ECMAScript"
+title:  "JavaScript? ECMAScript?"
 date:   2024-02-08 09:02:00 +0900
 author: padawanjoy
 image:  '/images/posts/2024-02-08-journey-of-javascript-from-its-inception-to-ecmascript/01.png'
@@ -8,41 +8,41 @@ tags:   [javascript, ecmascript]
 tags_color: '#db9e00'
 featured: true
 ---
-JavaScript has become an indispensable language in web development, yet the story of its origins, the reason behind its name, and its relationship with ECMAScript remain enigmatic to many. This article aims to delve into the history and evolution of JavaScript up to the present day, elucidating its relationship with ECMAScript and highlighting the differences between the two.
+자바스크립트는 웹 개발에서 없어서는 안 될 언어가 되었습니다. 그럼에도 불구하고, 자바스크립트의 기원, 그 이름이 붙여진 이유, 그리고 ECMAScript와의 관계에 대해 많은 사람들이 잘 모르는 경우가 있는데요. 그래서 자바스크립트의 역사와 그것이 어떻게 현재까지 진화해왔는지, ECMAScript와의 관계 무엇인지, 둘 사이의 차이점 까지 알아보고자 합니다.
 
-## The Birth of JavaScript
+## JavaScript의 탄생
 
-In 1995, Brendan Eich, an engineer at Netscape Communications, developed a new language to enhance web experiences by making them dynamic. At the time, the web was primarily a static information-sharing medium, making this development a significant turning point. Initially named Mocha, then later changed to LiveScript, the project was eventually renamed JavaScript.
+1995년, 넷스케이프 커뮤니케이션스에서 근무하던 엔지니어 브렌던 아이크는 웹 경험을 동적으로 만들기 위한 새로운 언어를 개발했습니다. 당시 웹은 주로 정적인 정보를 공유하는 수단이었기 때문에, 이러한 개발은 큰 전환점이었습니다. 처음에는 Mocha라는 이름으로 시작했으나, 이후 LiveScript로 바뀌었고, 결국 JavaScript라는 이름이 붙여졌습니다.
 
-## The Origin of the Name: Why JavaScript?
+## 이름의 기원: 왜 JavaScript인가?
 
-The name JavaScript was part of a marketing strategy, leveraging the popularity of Java, a language developed by Sun Microsystems that was gaining significant traction at the time. This naming strategy led many to mistakenly believe that Java and JavaScript were closely related, despite the two languages serving very different purposes and having distinct characteristics.
+JavaScript라는 이름은 당시 상당히 인기 있었던 Sun Microsystems의 Java 언어의 명성을 활용하기 위한 마케팅 전략의 일환으로 선택되었다고 합니다. 이런 명명 전략은 많은 사람들이 Java와 JavaScript가 밀접하게 연관되어 있다고 생각하게 만들었지만, 실제로 두 언어는 서로 매우 다른 목적과 특성을 가지고 있습니다. (관련이 없습니다 🙅‍♂️)
 
-## The Emergence of ECMAScript
+## ECMAScript의 등장
 
-As JavaScript gained popularity, cross-browser compatibility issues emerged, prompting the European Computer Manufacturers Association (ECMA) in 1997 to introduce ECMAScript, a standardized specification of JavaScript. This standardization aimed at unifying syntax, types, structures, and more, to ensure consistency in web development.
+JavaScript의 인기가 높아짐에 따라, 크로스 브라우저 호환성 문제가 생겨나게 되었고, 이를 해결하기 위해 1997년 유럽 컴퓨터 제조업체 협회(ECMA)는 JavaScript의 표준화된 사양, 즉 ECMAScript를 도입하게 되었습니다. 이 표준화 작업은 구문, 유형, 구조 등을 통일하여 웹 개발의 일관성을 보장하기 위한 것이었습니다.
 
-## ECMAScript and JavaScript: A Subtle Distinction
+## ECMAScript와 JavaScript: 미묘한 차이
 
-Equating ECMAScript with JavaScript is technically inaccurate. ECMAScript defines the standard specification for scripting languages, while JavaScript is an implementation of this standard that includes web APIs for interacting with web pages, such as the DOM (Document Object Model) and BOM (Browser Object Model). Essentially, JavaScript equals ECMAScript plus additional functionalities tailored for web development.
+ECMAScript와 JavaScript를 동의어처럼 사용하는 경우가 있는데, 사실 둘은 다른 개념입니다. ECMAScript는 스크립팅 언어의 표준 사양을 정의하는 것이고, JavaScript는 ECMAScript 표준에 기반을 둔 구현체로, 웹 페이지와 상호 작용을 위한 웹 API들, 예를 들어 DOM(Document Object Model)과 BOM(Browser Object Model) 등을 포함합니다. 즉, JavaScript는 ECMAScript의 핵심 사양에 웹 개발을 위한 추가적인 기능들을 더한 것입니다.
 
-This distinction is crucial. ECMAScript provides the core language specification, whereas JavaScript is the language used in practice, incorporating ECMAScript along with web APIs and other features for creating web pages. This means JavaScript not only adheres to the ECMAScript specification but also offers a broader range of functionalities.
+ECMAScript는 핵심 언어 사양을 제공하는 반면, JavaScript는 ECMAScript와 웹 API 및 웹 페이지 생성을 위한 다른 기능들을 결합한 실제 사용되는 언어입니다. 이는 JavaScript가 ECMAScript 사양을 준수함과 동시에 더 넓은 범위의 기능을 제공한다는 것을 의미합니다.
 
-## Sample Code: Introducing ECMAScript 6
+## ECMAScript 6 소개 샘플 코드
 
-ECMAScript 6 (ES6), also known as ECMAScript 2015, introduced many new features to JavaScript. The following sample code demonstrates some of the key features of ES6.
+ECMAScript 6 (ES6), 또는 ECMAScript 2015는 JavaScript에 많은 새로운 기능을 도입했습니다. 다음은 ES6의 주요 기능 중 일부를 보여주는 샘플 코드입니다.
 
 ```javascript
-// Variable declaration with let and const
+// let과 const로 변수 선언
 let name = 'Padawan Joy';
 const BIRTH_YEAR = 1990;
 
-// Arrow function
+// 화살표 함수
 const greet = (name) => {
   return `Hello, ${name}!`;
 }
 
-// Class declaration
+// 클래스 선언
 class Person {
   constructor(name, yearOfBirth) {
     this.name = name;
@@ -54,12 +54,14 @@ class Person {
   }
 }
 
-// Example usage
+// 예제 사용
 const person = new Person('Padawan Joy', 1990);
 console.log(greet(person.name)); // Hello, Padawan Joy!
-console.log(person.getAge()); // Varies depending on the current year
+console.log(person.getAge()); // 현재 연도에 따라 달라집니다
 ```
 
-## Conclusion
+이러한 새로운 기능들은 자바스크립트 개발자들이 더욱 효율적이고 간결한 코드를 작성할 수 있게 해주며, 프로그래밍 패턴을 더욱 현대적으로 만들어주었습니다.
 
-The journey of JavaScript from a simple scripting language to a cornerstone of web development has been filled with various transformations. Understanding the relationship between ECMAScript and JavaScript is key to grasping the history, current state, and future direction of this language. As JavaScript continues to evolve, the potential new features and capabilities it will offer remain an exciting prospect to look forward to.
+## 결론
+
+간단한 스크립팅 언어에서 시작해 웹 개발의 핵심으로 자리 잡은 자바스크립트는 그동안 많은 변화와 발전을 거쳤습니다. 자바스크립트가 계속해서 발전하면서, 우리는 앞으로 제공될 새로운 기능과 능력을 기대할 수 있습니다. 이 언어의 역사를 알고 현재의 기능을 이해하는 것은 모든 웹 개발자에게 귀중한 자산이 될 것이라고 생각합니다. 🙋‍♂️
