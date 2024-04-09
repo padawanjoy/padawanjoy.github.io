@@ -14,8 +14,8 @@ menu__settings:
       url: '/'
     - title: 'Blog'
       url: '/blog/'
-    - title: 'Gallery'
-      url: '/gallery/'
+    # - title: 'Gallery'
+    #   url: '/gallery/'
     # - title: 'About'
     #   url: '/about/'
     # - title: 'Authors'
@@ -98,7 +98,8 @@ mailchimp__settings:
 
 #-------------------------------
 # Footer Settings
-footer__description: In the realm of development and design, your creativity is your compass. Each challenge is an opportunity to innovate. Remember, you're not just building, you're creating futures. Let your imagination lead the way.
+# footer__description: In the realm of development and design, your creativity is your compass. Each challenge is an opportunity to innovate. Remember, you're not just building, you're creating futures. Let your imagination lead the way.
+footer__description: 개발을 좋아하고 연구하는 개발자입니다. 다양한 개발 기술, 경험, 그리고 IT 소식들을 함께 나누고 싶습니다.
 
 
 # Social Links
@@ -121,8 +122,8 @@ footer__menu__settings:
       url: '/'
     - title: 'Blog'
       url: '/blog/'
-    - title: 'Gallery'
-      url: '/gallery/'
+    # - title: 'Gallery'
+    #   url: '/gallery/'
 
 
 #-------------------------------
