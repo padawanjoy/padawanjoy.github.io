@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "다양한 버전의 Xcode 사용하기"
-date:   2024-04-14 08:00:00 +0900
+date:   2024-04-14 23:35:00 +0900
 author: padawanjoy
 image:  '/images/posts/2024-04-14-using-various-versions-of-xcode/01.webp'
 tags:   [xcode, ios]
