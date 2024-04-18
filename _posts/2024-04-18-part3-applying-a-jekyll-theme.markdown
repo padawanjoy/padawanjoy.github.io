@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GitHub 블로그 만들기 3 - Jekyll 테마 적용하기"
-date:   2024-04-18 22:43:00 +0900
+date:   2024-04-18 10:45:00 +0900
 author: padawanjoy
 image:  '/images/posts/2024-04-18-part3-applying-a-jekyll-theme/00.webp'
 tags: [github, blog, github-pages, ruby, rbenv, Jekyll]
